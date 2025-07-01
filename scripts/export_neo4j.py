@@ -238,7 +238,11 @@ def main():
     neo4j_password = os.getenv("NEO4J_PASSWORD", "knowledge123")
     
     # Create backup directory if it doesn't exist
-    backup_dir = "/data/backups"
+    # Use local path if not in Docker, otherwise use /data/backups
+    if os.path.exists("/data/backups"):
+        backup_dir = "/data/backups"
+    else:
+        backup_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "backups")
     os.makedirs(backup_dir, exist_ok=True)
     
     # Generate output filename with timestamp

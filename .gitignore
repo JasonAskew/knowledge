@@ -85,6 +85,8 @@ data/test_results/*
 !data/test_results/.gitkeep
 data/backups/*
 !data/backups/.gitkeep
+!data/backups/*.gz
+!data/backups/README.md
 
 # PDFs
 *.pdf
