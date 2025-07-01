@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Test outputs
+test_results_*.csv
+test_results_*.json
+test_report_*.csv
+test_report_*.md
+
+# Docker
+*.pid
+.dockerignore
+
+# Neo4j
+neo4j_data/
+neo4j_logs/
+neo4j_import/
+neo4j_plugins/
+
+# Backups
+*.dump
+*.backup
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local configuration
+.env.local
+.env.*.local
+
+# MCP server
+mcp_server.log
+
+# Build artifacts
+build.log
+
+# Data files (keep structure but not content)
+data/processed/*
+!data/processed/.gitkeep
+data/test_results/*
+!data/test_results/.gitkeep
+data/backups/*
+!data/backups/.gitkeep
+
+# PDFs
+*.pdf
+*.PDF
+data/pdfs/
+data/mvp_documents/
+knowledge_discovery_agent/westpac_pdfs/
+knowledge_discovery_agent/orphaned_pdfs/
+knowledge_discovery_agent/downloaded_pdfs/

@@ -1,0 +1,15 @@
+{
+  "download_summary": {
+    "total_files": 1,
+    "description": "Single file test"
+  },
+  "files": [
+    {
+      "filename": "BOM-BonusForwardContractPIS.pdf",
+      "original_url": "test",
+      "local_path": "/data/pdfs/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 202266
+    }
+  ]
+}

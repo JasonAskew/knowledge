@@ -1,0 +1,45 @@
+{
+  "download_summary": {
+    "total_files": 26,
+    "description": "MVP subset with Docker-compatible paths",
+    "source": "Fixed paths for Docker deployment",
+    "created_date": "2025-06-29"
+  },
+  "files": [
+    {
+      "filename": "BOM-BonusForwardContractPIS.pdf",
+      "original_url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 202266
+    },
+    {
+      "filename": "BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "original_url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/product-disclosure/BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure", 
+      "size": 202469
+    },
+    {
+      "filename": "BSA-DualCurrencyInvestmentPIS.pdf",
+      "original_url": "https://www.bsa.com.au/content/dam/bsa/downloads/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "size": 218506
+    },
+    {
+      "filename": "BSA-FlexiForwardPDS.pdf",
+      "original_url": "https://www.bsa.com.au/content/dam/bsa/downloads/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 196813
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "original_url": "https://www.stgeorge.com.au/content/dam/stg/downloads/rates_fees/SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "/data/pdfs/product-disclosure/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "product-disclosure",
+      "size": 251127
+    }
+  ]
+}

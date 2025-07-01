@@ -1,0 +1,1568 @@
+{
+  "download_summary": {
+    "total_files": 173,
+    "audit_date": "2025-06-26T13:50:35.704818",
+    "last_updated": "2025-06-26T14:55:05.606597",
+    "base_directory": "westpac_pdfs",
+    "verification_status": "web_verified"
+  },
+  "files": [
+    {
+      "filename": "FY19_WBC_Results_Media_Release.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/FY19_WBC_Results_Media_Release.pdf",
+      "local_path": "westpac_pdfs/misc/FY19_WBC_Results_Media_Release.pdf",
+      "category": "misc",
+      "size": 136037,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsreportschedules.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsreportschedules.pdf",
+      "local_path": "westpac_pdfs/misc/receiptsreportschedules.pdf",
+      "category": "misc",
+      "size": 100932,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-interest-rate-trans-supplement-sept-24.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/wbc-interest-rate-trans-supplement-sept-24.pdf",
+      "local_path": "westpac_pdfs/misc/wbc-interest-rate-trans-supplement-sept-24.pdf",
+      "category": "misc",
+      "size": 347006,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Supplement_WBC_EMTN_Offering_Memorandum.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Supplement_WBC_EMTN_Offering_Memorandum.pdf",
+      "local_path": "westpac_pdfs/misc/Supplement_WBC_EMTN_Offering_Memorandum.pdf",
+      "category": "misc",
+      "size": 86433,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "colgettingstarted.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/colgettingstarted.pdf",
+      "local_path": "westpac_pdfs/misc/colgettingstarted.pdf",
+      "category": "misc",
+      "size": 555072,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "media_release_response_plan.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/media_release_response_plan.pdf",
+      "local_path": "westpac_pdfs/misc/media_release_response_plan.pdf",
+      "category": "misc",
+      "size": 313726,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FY24-Notable-Items-and-Reporting-Changes.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/FY24-Notable-Items-and-Reporting-Changes.pdf",
+      "local_path": "westpac_pdfs/misc/FY24-Notable-Items-and-Reporting-Changes.pdf",
+      "category": "misc",
+      "size": 650919,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "101008_IT_and_Productivity_Final.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/101008_IT_and_Productivity_Final.pdf",
+      "local_path": "westpac_pdfs/misc/101008_IT_and_Productivity_Final.pdf",
+      "category": "misc",
+      "size": 1207853,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "admincreateoffice.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/admincreateoffice.pdf",
+      "local_path": "westpac_pdfs/misc/admincreateoffice.pdf",
+      "category": "misc",
+      "size": 457990,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Group_Telephone_Banking_T___C.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Group_Telephone_Banking_T___C.pdf",
+      "local_path": "westpac_pdfs/misc/Group_Telephone_Banking_T___C.pdf",
+      "category": "misc",
+      "size": 409245,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpdomesticnew.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpdomesticnew.pdf",
+      "local_path": "westpac_pdfs/misc/olpdomesticnew.pdf",
+      "category": "misc",
+      "size": 477215,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_PMC_060328_Pres.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_PMC_060328_Pres.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_PMC_060328_Pres.pdf",
+      "category": "misc",
+      "size": 175273,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "westpac_business_snapshot_february_2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/westpac_business_snapshot_february_2024.pdf",
+      "local_path": "westpac_pdfs/misc/westpac_business_snapshot_february_2024.pdf",
+      "category": "misc",
+      "size": 782548,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpbpay.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpbpay.pdf",
+      "local_path": "westpac_pdfs/misc/olpbpay.pdf",
+      "category": "misc",
+      "size": 188769,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpintlnewau.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpintlnewau.pdf",
+      "local_path": "westpac_pdfs/misc/olpintlnewau.pdf",
+      "category": "misc",
+      "size": 604819,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_Pillar_3_Report_(September_2017).pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_Pillar_3_Report_(September_2017).pdf",
+      "local_path": "westpac_pdfs/misc/Westpac_Pillar_3_Report_(September_2017).pdf",
+      "category": "misc",
+      "size": 1857502,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SDLHongKongSupplementSigned.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/SDLHongKongSupplementSigned.pdf",
+      "local_path": "westpac_pdfs/misc/SDLHongKongSupplementSigned.pdf",
+      "category": "misc",
+      "size": 763480,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "mobilecreatepayments.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/mobilecreatepayments.pdf",
+      "local_path": "westpac_pdfs/misc/mobilecreatepayments.pdf",
+      "category": "misc",
+      "size": 336169,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "mobileauthorisepayments.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/mobileauthorisepayments.pdf",
+      "local_path": "westpac_pdfs/misc/mobileauthorisepayments.pdf",
+      "category": "misc",
+      "size": 244208,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SDLAustraliaSupplementSigned.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/SDLAustraliaSupplementSigned.pdf",
+      "local_path": "westpac_pdfs/misc/SDLAustraliaSupplementSigned.pdf",
+      "category": "misc",
+      "size": 633709,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-1H24-IDP-and-Presentation.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC-1H24-IDP-and-Presentation.pdf",
+      "local_path": "westpac_pdfs/misc/WBC-1H24-IDP-and-Presentation.pdf",
+      "category": "misc",
+      "size": 6224325,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "1H21_WBC_Presentation_and_IDP.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/1H21_WBC_Presentation_and_IDP.pdf",
+      "local_path": "westpac_pdfs/misc/1H21_WBC_Presentation_and_IDP.pdf",
+      "category": "misc",
+      "size": 2247957,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpfilesnewau.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpfilesnewau.pdf",
+      "local_path": "westpac_pdfs/misc/olpfilesnewau.pdf",
+      "category": "misc",
+      "size": 228171,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_NZ_Independent_External_Review_2023.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_NZ_Independent_External_Review_2023.pdf",
+      "local_path": "westpac_pdfs/misc/Westpac_NZ_Independent_External_Review_2023.pdf",
+      "category": "misc",
+      "size": 378210,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpbeneficiaryintl.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpbeneficiaryintl.pdf",
+      "local_path": "westpac_pdfs/misc/olpbeneficiaryintl.pdf",
+      "category": "misc",
+      "size": 304790,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Tasmanian_POA.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Tasmanian_POA.pdf",
+      "local_path": "westpac_pdfs/misc/Tasmanian_POA.pdf",
+      "category": "misc",
+      "size": 1264204,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsview.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsview.pdf",
+      "local_path": "westpac_pdfs/misc/receiptsview.pdf",
+      "category": "misc",
+      "size": 222916,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "mobileauthorisefiles.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/mobileauthorisefiles.pdf",
+      "local_path": "westpac_pdfs/misc/mobileauthorisefiles.pdf",
+      "category": "misc",
+      "size": 267690,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_070620_UBS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_070620_UBS.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_070620_UBS.pdf",
+      "category": "misc",
+      "size": 107415,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_Business_Express_Deposit_T_and_Cs_D5.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Westpac_Business_Express_Deposit_T_and_Cs_D5.pdf",
+      "local_path": "westpac_pdfs/misc/Westpac_Business_Express_Deposit_T_and_Cs_D5.pdf",
+      "category": "misc",
+      "size": 295105,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpfundstransfer.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpfundstransfer.pdf",
+      "local_path": "westpac_pdfs/misc/olpfundstransfer.pdf",
+      "category": "misc",
+      "size": 116237,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "mobileviewaccounts.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/mobileviewaccounts.pdf",
+      "local_path": "westpac_pdfs/misc/mobileviewaccounts.pdf",
+      "category": "misc",
+      "size": 221193,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olptemplateexist.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olptemplateexist.pdf",
+      "local_path": "westpac_pdfs/misc/olptemplateexist.pdf",
+      "category": "misc",
+      "size": 209038,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBCNZUpdate060907.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBCNZUpdate060907.pdf",
+      "local_path": "westpac_pdfs/misc/WBCNZUpdate060907.pdf",
+      "category": "misc",
+      "size": 184103,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Altitude_Business_Conditions_Use.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Altitude_Business_Conditions_Use.pdf",
+      "local_path": "westpac_pdfs/misc/Altitude_Business_Conditions_Use.pdf",
+      "category": "misc",
+      "size": 509955,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "accountsview.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsview.pdf",
+      "local_path": "westpac_pdfs/misc/accountsview.pdf",
+      "category": "misc",
+      "size": 453455,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsmerchants.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsmerchants.pdf",
+      "local_path": "westpac_pdfs/misc/receiptsmerchants.pdf",
+      "category": "misc",
+      "size": 167363,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsexportschedules.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsexportschedules.pdf",
+      "local_path": "westpac_pdfs/misc/receiptsexportschedules.pdf",
+      "category": "misc",
+      "size": 164706,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_FY22AR_INTERACTIVE.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_FY22AR_INTERACTIVE.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_FY22AR_INTERACTIVE.pdf",
+      "category": "misc",
+      "size": 13107675,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_GSFDS_June_2010.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_GSFDS_June_2010.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_GSFDS_June_2010.pdf",
+      "category": "misc",
+      "size": 611722,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsexporting.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsexporting.pdf",
+      "local_path": "westpac_pdfs/misc/receiptsexporting.pdf",
+      "category": "misc",
+      "size": 132887,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Business_spotlight.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Business_spotlight.pdf",
+      "local_path": "westpac_pdfs/misc/Business_spotlight.pdf",
+      "category": "misc",
+      "size": 7205963,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olprecurringcreate.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olprecurringcreate.pdf",
+      "local_path": "westpac_pdfs/misc/olprecurringcreate.pdf",
+      "category": "misc",
+      "size": 310060,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Anthony-Miller-appointed-CEO-of-Westpac.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Anthony-Miller-appointed-CEO-of-Westpac.pdf",
+      "local_path": "westpac_pdfs/misc/Anthony-Miller-appointed-CEO-of-Westpac.pdf",
+      "category": "misc",
+      "size": 183290,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_FactSheet_07FY.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_FactSheet_07FY.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_FactSheet_07FY.pdf",
+      "category": "misc",
+      "size": 258562,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Redraw_Authority.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Redraw_Authority.pdf",
+      "local_path": "westpac_pdfs/misc/Redraw_Authority.pdf",
+      "category": "misc",
+      "size": 67832,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-access_and_inclusion_plan_2021-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/WBC-access_and_inclusion_plan_2021-2024.pdf",
+      "local_path": "westpac_pdfs/misc/WBC-access_and_inclusion_plan_2021-2024.pdf",
+      "category": "misc",
+      "size": 5142647,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-EMTN-Offering-Memorandum-dated-8-November-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC-EMTN-Offering-Memorandum-dated-8-November-2024.pdf",
+      "local_path": "westpac_pdfs/misc/WBC-EMTN-Offering-Memorandum-dated-8-November-2024.pdf",
+      "category": "misc",
+      "size": 2389070,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbcafr.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbcafr.pdf",
+      "local_path": "westpac_pdfs/misc/wbcafr.pdf",
+      "category": "misc",
+      "size": 973552,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_3Q22_IDP_FINAL.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_3Q22_IDP_FINAL.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_3Q22_IDP_FINAL.pdf",
+      "category": "misc",
+      "size": 880132,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-fx-trans-supplement-sept-24.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/wbc-fx-trans-supplement-sept-24.pdf",
+      "local_path": "westpac_pdfs/misc/wbc-fx-trans-supplement-sept-24.pdf",
+      "category": "misc",
+      "size": 325278,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "accountsexporting.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsexporting.pdf",
+      "local_path": "westpac_pdfs/misc/accountsexporting.pdf",
+      "category": "misc",
+      "size": 184781,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpbeneficiarydom.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpbeneficiarydom.pdf",
+      "local_path": "westpac_pdfs/misc/olpbeneficiarydom.pdf",
+      "category": "misc",
+      "size": 476619,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olptemplatesnewau.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olptemplatesnewau.pdf",
+      "local_path": "westpac_pdfs/misc/olptemplatesnewau.pdf",
+      "category": "misc",
+      "size": 256143,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpimportfiles.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpimportfiles.pdf",
+      "local_path": "westpac_pdfs/misc/olpimportfiles.pdf",
+      "category": "misc",
+      "size": 216478,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "admincreateuser.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/admincreateuser.pdf",
+      "local_path": "westpac_pdfs/misc/admincreateuser.pdf",
+      "category": "misc",
+      "size": 628022,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2020_Interim_Financial_Results.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2020_Interim_Financial_Results.pdf",
+      "local_path": "westpac_pdfs/misc/2020_Interim_Financial_Results.pdf",
+      "category": "misc",
+      "size": 2646534,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Technology-simplification-update.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Technology-simplification-update.pdf",
+      "local_path": "westpac_pdfs/misc/Technology-simplification-update.pdf",
+      "category": "misc",
+      "size": 1001957,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olptaxau.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olptaxau.pdf",
+      "local_path": "westpac_pdfs/misc/olptaxau.pdf",
+      "category": "misc",
+      "size": 115629,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2012_WBC_Pillar_3_Capital_Update.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2012_WBC_Pillar_3_Capital_Update.pdf",
+      "local_path": "westpac_pdfs/misc/2012_WBC_Pillar_3_Capital_Update.pdf",
+      "category": "misc",
+      "size": 457817,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "accountsstopcheques.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsstopcheques.pdf",
+      "local_path": "westpac_pdfs/misc/accountsstopcheques.pdf",
+      "category": "misc",
+      "size": 201532,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_Cash_Investment_Account_T_C.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Westpac_Cash_Investment_Account_T_C.pdf",
+      "local_path": "westpac_pdfs/misc/Westpac_Cash_Investment_Account_T_C.pdf",
+      "category": "misc",
+      "size": 429301,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "res0993.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/res0993.pdf",
+      "local_path": "westpac_pdfs/misc/res0993.pdf",
+      "category": "misc",
+      "size": 170369,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "UBS_FCS_060622.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/UBS_FCS_060622.pdf",
+      "local_path": "westpac_pdfs/misc/UBS_FCS_060622.pdf",
+      "category": "misc",
+      "size": 85037,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "PAP_ConditionsofUse.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/PAP_ConditionsofUse.pdf",
+      "local_path": "westpac_pdfs/misc/PAP_ConditionsofUse.pdf",
+      "category": "misc",
+      "size": 302189,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "accountsreporting.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsreporting.pdf",
+      "local_path": "westpac_pdfs/misc/accountsreporting.pdf",
+      "category": "misc",
+      "size": 142778,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "concise3.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/concise3.pdf",
+      "local_path": "westpac_pdfs/misc/concise3.pdf",
+      "category": "misc",
+      "size": 585434,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_SGB_MediaRel_130508.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_SGB_MediaRel_130508.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_SGB_MediaRel_130508.pdf",
+      "category": "misc",
+      "size": 68394,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "acceptable-visas.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/acceptable-visas.pdf",
+      "local_path": "westpac_pdfs/misc/acceptable-visas.pdf",
+      "category": "misc",
+      "size": 501291,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_Wealth_Update_March_2017.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_Wealth_Update_March_2017.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_Wealth_Update_March_2017.pdf",
+      "category": "misc",
+      "size": 5824943,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "adminaddaccountstocol.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/adminaddaccountstocol.pdf",
+      "local_path": "westpac_pdfs/misc/adminaddaccountstocol.pdf",
+      "category": "misc",
+      "size": 343820,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SDLSingaporeSupplementSigned.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/SDLSingaporeSupplementSigned.pdf",
+      "local_path": "westpac_pdfs/misc/SDLSingaporeSupplementSigned.pdf",
+      "category": "misc",
+      "size": 625834,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-full-year-presentation-and-IDP-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbc-full-year-presentation-and-IDP-2024.pdf",
+      "local_path": "westpac_pdfs/misc/wbc-full-year-presentation-and-IDP-2024.pdf",
+      "category": "misc",
+      "size": 3666617,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Safeguard_your_valuables.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Safeguard_your_valuables.pdf",
+      "local_path": "westpac_pdfs/misc/Safeguard_your_valuables.pdf",
+      "category": "misc",
+      "size": 133851,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WNZL-EMTN-Update-Prospectus-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WNZL-EMTN-Update-Prospectus-2024.pdf",
+      "local_path": "westpac_pdfs/misc/WNZL-EMTN-Update-Prospectus-2024.pdf",
+      "category": "misc",
+      "size": 2010936,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-risk-factors-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbc-risk-factors-2024.pdf",
+      "local_path": "westpac_pdfs/misc/wbc-risk-factors-2024.pdf",
+      "category": "misc",
+      "size": 201692,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "p2wbc99.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/p2wbc99.pdf",
+      "local_path": "westpac_pdfs/misc/p2wbc99.pdf",
+      "category": "misc",
+      "size": 267230,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "December_2011_WNZL_DS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/December_2011_WNZL_DS.pdf",
+      "local_path": "westpac_pdfs/misc/December_2011_WNZL_DS.pdf",
+      "category": "misc",
+      "size": 938619,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac-first-half-2024-notable-items-reporting-changes.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac-first-half-2024-notable-items-reporting-changes.pdf",
+      "local_path": "westpac_pdfs/misc/Westpac-first-half-2024-notable-items-reporting-changes.pdf",
+      "category": "misc",
+      "size": 958797,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_NZ_Market_Update_March_2016.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_NZ_Market_Update_March_2016.pdf",
+      "local_path": "westpac_pdfs/misc/Westpac_NZ_Market_Update_March_2016.pdf",
+      "category": "misc",
+      "size": 948629,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "3Q23_Capital_Funding_and_Asset_Quality_slides.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/3Q23_Capital_Funding_and_Asset_Quality_slides.pdf",
+      "local_path": "westpac_pdfs/misc/3Q23_Capital_Funding_and_Asset_Quality_slides.pdf",
+      "category": "misc",
+      "size": 922809,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_2022_Notice_of_Annual_General_Meeting.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_2022_Notice_of_Annual_General_Meeting.pdf",
+      "local_path": "westpac_pdfs/misc/WBC_2022_Notice_of_Annual_General_Meeting.pdf",
+      "category": "misc",
+      "size": 693997,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SDLLetterSigned.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/SDLLetterSigned.pdf",
+      "local_path": "westpac_pdfs/misc/SDLLetterSigned.pdf",
+      "category": "misc",
+      "size": 2716649,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "supplement-dated-17Feb24-to-prospectus-dated-8Nov24.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/supplement-dated-17Feb24-to-prospectus-dated-8Nov24.pdf",
+      "local_path": "westpac_pdfs/misc/supplement-dated-17Feb24-to-prospectus-dated-8Nov24.pdf",
+      "category": "misc",
+      "size": 238383,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "dividend-reinvestment-plan.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/dividend-reinvestment-plan.pdf",
+      "local_path": "westpac_pdfs/misc/dividend-reinvestment-plan.pdf",
+      "category": "misc",
+      "size": 204090,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Tier-2-Capital-Instruments-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Tier-2-Capital-Instruments-2024.pdf",
+      "local_path": "westpac_pdfs/misc/Tier-2-Capital-Instruments-2024.pdf",
+      "category": "misc",
+      "size": 868484,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "westpac_pdfs/misc/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "misc",
+      "size": 190554,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "online-banking-registration.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/online-banking-registration.pdf",
+      "local_path": "westpac_pdfs/banking-products/online-banking-registration.pdf",
+      "category": "banking-products",
+      "size": 141021,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BusinessChoiceRewardsPlatinum-Card-QantasBusTC.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/BusinessChoiceRewardsPlatinum-Card-QantasBusTC.pdf",
+      "local_path": "westpac_pdfs/banking-products/BusinessChoiceRewardsPlatinum-Card-QantasBusTC.pdf",
+      "category": "banking-products",
+      "size": 118540,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsviewcards.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsviewcards.pdf",
+      "local_path": "westpac_pdfs/banking-products/receiptsviewcards.pdf",
+      "category": "banking-products",
+      "size": 465464,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_Credit_Guide.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Westpac_Credit_Guide.pdf",
+      "local_path": "westpac_pdfs/banking-products/Westpac_Credit_Guide.pdf",
+      "category": "banking-products",
+      "size": 70429,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "telephone_banking_t_c.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/telephone_banking_t_c.pdf",
+      "local_path": "westpac_pdfs/banking-products/telephone_banking_t_c.pdf",
+      "category": "banking-products",
+      "size": 409245,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "receiptsexportcards.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/receiptsexportcards.pdf",
+      "local_path": "westpac_pdfs/banking-products/receiptsexportcards.pdf",
+      "category": "banking-products",
+      "size": 118792,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "termdepositopen.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/termdepositopen.pdf",
+      "local_path": "westpac_pdfs/banking-products/termdepositopen.pdf",
+      "category": "banking-products",
+      "size": 600084,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "olpfundstransfercards.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/olpfundstransfercards.pdf",
+      "local_path": "westpac_pdfs/banking-products/olpfundstransfercards.pdf",
+      "category": "banking-products",
+      "size": 165271,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "termdepositmaturity.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/termdepositmaturity.pdf",
+      "local_path": "westpac_pdfs/banking-products/termdepositmaturity.pdf",
+      "category": "banking-products",
+      "size": 338765,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Joint_account_on-share_authority_-_Online_Banking_PC2621.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Joint_account_on-share_authority_-_Online_Banking_PC2621.pdf",
+      "local_path": "westpac_pdfs/banking-products/Joint_account_on-share_authority_-_Online_Banking_PC2621.pdf",
+      "category": "banking-products",
+      "size": 685430,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-guide-to-westpac-residential-construction-loans.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/wbc-guide-to-westpac-residential-construction-loans.pdf",
+      "local_path": "westpac_pdfs/banking-products/wbc-guide-to-westpac-residential-construction-loans.pdf",
+      "category": "banking-products",
+      "size": 448608,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Third_Party_Access_Authority_-_Online_Banking_PC2617.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/Third_Party_Access_Authority_-_Online_Banking_PC2617.pdf",
+      "local_path": "westpac_pdfs/banking-products/Third_Party_Access_Authority_-_Online_Banking_PC2617.pdf",
+      "category": "banking-products",
+      "size": 113852,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "formauaccountsservices.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/formauaccountsservices.pdf",
+      "local_path": "westpac_pdfs/forms/formauaccountsservices.pdf",
+      "category": "forms",
+      "size": 602365,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Managed_Funds_Transaction_Form.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Managed_Funds_Transaction_Form.pdf",
+      "local_path": "westpac_pdfs/forms/Managed_Funds_Transaction_Form.pdf",
+      "category": "forms",
+      "size": 114623,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "formauuseramendment.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/formauuseramendment.pdf",
+      "local_path": "westpac_pdfs/forms/formauuseramendment.pdf",
+      "category": "forms",
+      "size": 596377,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "formauorgquickstart.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/formauorgquickstart.pdf",
+      "local_path": "westpac_pdfs/forms/formauorgquickstart.pdf",
+      "category": "forms",
+      "size": 605131,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "formauneworgoffice.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/formauneworgoffice.pdf",
+      "local_path": "westpac_pdfs/forms/formauneworgoffice.pdf",
+      "category": "forms",
+      "size": 602848,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BT_Securities_Ltd_Financial_Services_Guide.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/BT_Securities_Ltd_Financial_Services_Guide.pdf",
+      "local_path": "westpac_pdfs/brochures/BT_Securities_Ltd_Financial_Services_Guide.pdf",
+      "category": "brochures",
+      "size": 296044,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "business-debit-mastercard-tandc.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/business-debit-mastercard-tandc.pdf",
+      "local_path": "westpac_pdfs/legal-terms/business-debit-mastercard-tandc.pdf",
+      "category": "legal-terms",
+      "size": 653048,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Debit_MasterCard_TandC.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/Debit_MasterCard_TandC.pdf",
+      "local_path": "westpac_pdfs/legal-terms/Debit_MasterCard_TandC.pdf",
+      "category": "legal-terms",
+      "size": 348841,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "PersonalAccounts-tandc.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/PersonalAccounts-tandc.pdf",
+      "local_path": "westpac_pdfs/legal-terms/PersonalAccounts-tandc.pdf",
+      "category": "legal-terms",
+      "size": 727090,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "deposit-accts-bus-customers-tandc.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/deposit-accts-bus-customers-tandc.pdf",
+      "local_path": "westpac_pdfs/legal-terms/deposit-accts-bus-customers-tandc.pdf",
+      "category": "legal-terms",
+      "size": 832687,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "TermDeposits-tandc.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/TermDeposits-tandc.pdf",
+      "local_path": "westpac_pdfs/legal-terms/TermDeposits-tandc.pdf",
+      "category": "legal-terms",
+      "size": 380312,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "westpac_pdfs/legal-terms/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "legal-terms",
+      "size": 198879,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "businesscards_complimentaryinsurancepolicy.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/businesscards_complimentaryinsurancepolicy.pdf",
+      "local_path": "westpac_pdfs/policies/businesscards_complimentaryinsurancepolicy.pdf",
+      "category": "policies",
+      "size": 358295,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-Corporate-Governance-Statement.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC-Corporate-Governance-Statement.pdf",
+      "local_path": "westpac_pdfs/policies/WBC-Corporate-Governance-Statement.pdf",
+      "category": "policies",
+      "size": 1130529,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_CDR_Policy.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/WBC_CDR_Policy.pdf",
+      "local_path": "westpac_pdfs/policies/WBC_CDR_Policy.pdf",
+      "category": "policies",
+      "size": 876426,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "code-of-conduct.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/code-of-conduct.pdf",
+      "local_path": "westpac_pdfs/policies/code-of-conduct.pdf",
+      "category": "policies",
+      "size": 2537014,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Diversity_Policy.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/Diversity_Policy.pdf",
+      "local_path": "westpac_pdfs/policies/Diversity_Policy.pdf",
+      "category": "policies",
+      "size": 212220,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-US-annual-report-Form-20-F-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbc-US-annual-report-Form-20-F-2024.pdf",
+      "local_path": "westpac_pdfs/annual-reports/wbc-US-annual-report-Form-20-F-2024.pdf",
+      "category": "annual-reports",
+      "size": 12883527,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WG-AnnualReport-2023.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WG-AnnualReport-2023.pdf",
+      "local_path": "westpac_pdfs/annual-reports/WG-AnnualReport-2023.pdf",
+      "category": "annual-reports",
+      "size": 12309056,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2013_Annual_Review_and_Sustainability_Report.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2013_Annual_Review_and_Sustainability_Report.pdf",
+      "local_path": "westpac_pdfs/annual-reports/2013_Annual_Review_and_Sustainability_Report.pdf",
+      "category": "annual-reports",
+      "size": 1420376,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2017_Westpac_Annual_Review_and_Sustainability_Report.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2017_Westpac_Annual_Review_and_Sustainability_Report.pdf",
+      "local_path": "westpac_pdfs/annual-reports/2017_Westpac_Annual_Review_and_Sustainability_Report.pdf",
+      "category": "annual-reports",
+      "size": 6588514,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_2022_Annual_Report.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_2022_Annual_Report.pdf",
+      "local_path": "westpac_pdfs/annual-reports/WBC_2022_Annual_Report.pdf",
+      "category": "annual-reports",
+      "size": 10441055,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-annual-report-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbc-annual-report-2024.pdf",
+      "local_path": "westpac_pdfs/annual-reports/wbc-annual-report-2024.pdf",
+      "category": "annual-reports",
+      "size": 17917911,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_AU_2020_Annual_Report.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_AU_2020_Annual_Report.pdf",
+      "local_path": "westpac_pdfs/annual-reports/Westpac_AU_2020_Annual_Report.pdf",
+      "category": "annual-reports",
+      "size": 10078822,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2023-annual-report-on-form-20-F.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2023-annual-report-on-form-20-F.pdf",
+      "local_path": "westpac_pdfs/annual-reports/2023-annual-report-on-form-20-F.pdf",
+      "category": "annual-reports",
+      "size": 9356289,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2003_Concise_Annual_Report_1.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2003_Concise_Annual_Report_1.pdf",
+      "local_path": "westpac_pdfs/annual-reports/2003_Concise_Annual_Report_1.pdf",
+      "category": "annual-reports",
+      "size": 1239139,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WSNZL-Annual-Report-30-September-2024-F.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WSNZL-Annual-Report-30-September-2024-F.pdf",
+      "local_path": "westpac_pdfs/annual-reports/WSNZL-Annual-Report-30-September-2024-F.pdf",
+      "category": "annual-reports",
+      "size": 694510,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "2021_Sustainability_Supplement.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/2021_Sustainability_Supplement.pdf",
+      "local_path": "westpac_pdfs/sustainability/2021_Sustainability_Supplement.pdf",
+      "category": "sustainability",
+      "size": 2517048,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_Group_2019_Sustainability_Performance_Report.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_Group_2019_Sustainability_Performance_Report.pdf",
+      "local_path": "westpac_pdfs/sustainability/Westpac_Group_2019_Sustainability_Performance_Report.pdf",
+      "category": "sustainability",
+      "size": 6984878,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Climate_Change_Position_Statement_and_Action_Plan.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Climate_Change_Position_Statement_and_Action_Plan.pdf",
+      "local_path": "westpac_pdfs/sustainability/Climate_Change_Position_Statement_and_Action_Plan.pdf",
+      "category": "sustainability",
+      "size": 749796,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_ESG_update_21_Sept_2021.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_ESG_update_21_Sept_2021.pdf",
+      "local_path": "westpac_pdfs/sustainability/Westpac_ESG_update_21_Sept_2021.pdf",
+      "category": "sustainability",
+      "size": 3907932,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "wbc-climate-report-2024.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/wbc-climate-report-2024.pdf",
+      "local_path": "westpac_pdfs/sustainability/wbc-climate-report-2024.pdf",
+      "category": "sustainability",
+      "size": 11617423,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "International-Service-Fees-0811.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/International-Service-Fees-0811.pdf",
+      "local_path": "westpac_pdfs/fees-charges/International-Service-Fees-0811.pdf",
+      "category": "fees-charges",
+      "size": 160428,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "fees_wbc.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/fees_wbc.pdf",
+      "local_path": "westpac_pdfs/fees-charges/fees_wbc.pdf",
+      "category": "fees-charges",
+      "size": 107767,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-DualCurrencyInvestmentPIS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "size": 1833656,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-ParticipatingForwardPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-ParticipatingForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1483401,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FSR_WestpacGeneralFSG.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/FSR_WestpacGeneralFSG.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/FSR_WestpacGeneralFSG.pdf",
+      "category": "product-disclosure",
+      "size": 255688,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-RangeForwardPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-RangeForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 217164,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-ParticipatingForwardPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-ParticipatingForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 2071164,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-FXSwapPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-FXSwapPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "size": 190569,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-FXTransactionPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-FXTransactionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 212193,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FSR_LandlordInsPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/FSR_LandlordInsPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/FSR_LandlordInsPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1257108,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FXSwapPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FXSwapPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "size": 592939,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-DualCurrencyInvestmentPIS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/WBC-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "size": 323723,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-RangeForwardPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-RangeForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1034136,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BOM-FXSwapPDS.pdf",
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-FXSwapPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BOM-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "size": 128384,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-FXTransactionPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-FXTransactionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 191576,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-FXSwapPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-FXSwapPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "size": 87529,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BOM-InterestRateSwapPIS.pdf",
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-InterestRateSwapPIS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BOM-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "size": 795818,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BOM-FXTransactionPDS.pdf",
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-FXTransactionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BOM-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 150446,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-RangeForwardPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-RangeForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 428783,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-ForeignExchangeOptionPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-ForeignExchangeOptionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 204283,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FXTransactionPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FXTransactionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 799982,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BOM-RangeForwardPDS.pdf",
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-RangeForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BOM-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 222943,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-ForeignExchangeOptionPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-ForeignExchangeOptionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1352236,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FSR_HomeContentInsPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/FSR_HomeContentInsPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/FSR_HomeContentInsPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1014791,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FSR_ProtectionPlansPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/FSR_ProtectionPlansPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/FSR_ProtectionPlansPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1366119,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-FlexiForwardPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-FlexiForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 192820,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "size": 105660,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BOM-ParticipatingForwardPDS.pdf",
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-ParticipatingForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BOM-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1264665,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "worldwide-wallet-PDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/worldwide-wallet-PDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/worldwide-wallet-PDS.pdf",
+      "category": "product-disclosure",
+      "size": 281267,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-FlexiForwardPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-FlexiForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1479654,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC-ParticipatingForwardPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-ParticipatingForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/WBC-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1259072,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "westpac-new-zealand-disclosure-statement-march-2023.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/westpac-new-zealand-disclosure-statement-march-2023.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/westpac-new-zealand-disclosure-statement-march-2023.pdf",
+      "category": "product-disclosure",
+      "size": 1029645,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-ForeignExchangeOptionPDS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-ForeignExchangeOptionPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 422030,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "FSR_DirectEntryPDS.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/FSR_DirectEntryPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/FSR_DirectEntryPDS.pdf",
+      "category": "product-disclosure",
+      "size": 392579,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FlexiForwardPDS.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FlexiForwardPDS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1343257,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "car-insurance-pds.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/car-insurance-pds.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/car-insurance-pds.pdf",
+      "category": "product-disclosure",
+      "size": 384741,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/pds/SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "product-disclosure",
+      "size": 198879,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BSA-DualCurrencyInvestmentPIS.pdf",
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "westpac_pdfs/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "size": 2655872,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac-2023-AGM-Results.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac-2023-AGM-Results.pdf",
+      "local_path": "westpac_pdfs/investor-centre/Westpac-2023-AGM-Results.pdf",
+      "category": "investor-centre",
+      "size": 603217,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "Westpac_2018_AGM_CEO_address_final_12_Dec.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/Westpac_2018_AGM_CEO_address_final_12_Dec.pdf",
+      "local_path": "westpac_pdfs/investor-centre/Westpac_2018_AGM_CEO_address_final_12_Dec.pdf",
+      "category": "investor-centre",
+      "size": 194103,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC_ASX_1H21.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/ic/WBC_ASX_1H21.pdf",
+      "local_path": "westpac_pdfs/investor-centre/WBC_ASX_1H21.pdf",
+      "category": "investor-centre",
+      "size": 2023584,
+      "verification_method": "pattern_match",
+      "verified_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "BDO_ScamAnalysisReport.pdf",
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/images/about/media-centre/Documents/BDO_ScamAnalysisReport.pdf",
+      "local_path": "westpac_pdfs/research/BDO_ScamAnalysisReport.pdf",
+      "category": "research",
+      "size": 575892,
+      "verification_method": "pattern_based_rescue",
+      "verified_date": "2025-06-26T14:54:39.976556"
+    }
+  ]
+}

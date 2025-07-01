@@ -1,0 +1,292 @@
+{
+  "status": "complete",
+  "total_urls_discovered": 102,
+  "download_attempts": 27,
+  "successful_downloads": 6,
+  "failed_downloads": 21,
+  "duration_seconds": 10.385193,
+  "download_results": [
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-CashManagementServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-CashManagementServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-CashManagementServicesPDS.pdf",
+      "filename": "BOM-CashManagementServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-CashManagementServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-CashManagementServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-CashManagementServicesPDS.pdf",
+      "filename": "BOM-CashManagementServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-CashManagementServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-CashManagementServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-CashManagementServicesPDS.pdf",
+      "filename": "BOM-CashManagementServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "filename": "BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "filename": "BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "filename": "BOM-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-InterestRateSwaptionPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-InterestRateSwaptionPIS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-InterestRateSwaptionPIS.pdf",
+      "filename": "BOM-InterestRateSwaptionPIS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-InterestRateSwaptionPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-InterestRateSwaptionPIS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-InterestRateSwaptionPIS.pdf",
+      "filename": "BOM-InterestRateSwaptionPIS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-InterestRateSwaptionPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-InterestRateSwaptionPIS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-InterestRateSwaptionPIS.pdf",
+      "filename": "BOM-InterestRateSwaptionPIS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-TradeFinanceServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-TradeFinanceServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-TradeFinanceServicesPDS.pdf",
+      "filename": "BOM-TradeFinanceServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-TradeFinanceServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-TradeFinanceServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-TradeFinanceServicesPDS.pdf",
+      "filename": "BOM-TradeFinanceServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-TradeFinanceServicesPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-TradeFinanceServicesPDS.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-TradeFinanceServicesPDS.pdf",
+      "filename": "BOM-TradeFinanceServicesPDS.pdf",
+      "category": "product-disclosure",
+      "priority": 1,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.stgeorge.com.au/content/dam/stg/downloads/personal/home-loans/Loan-Accounts.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Loan-Accounts.pdf",
+      "size": 150559,
+      "checksum": "9c4daa6e9bd07bd2a8bcdf0faa69b838",
+      "download_time": "2025-06-29T13:38:11.195319",
+      "filename": "Loan-Accounts.pdf",
+      "category": "banking-products",
+      "priority": 6,
+      "source": "stgeorge.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/BSA-FgnCurrencyAccountTC.pdf",
+      "size": 198879,
+      "checksum": "5f04acbb801033ad1376048f01032704",
+      "download_time": "2025-06-29T13:38:11.380684",
+      "filename": "BSA-FgnCurrencyAccountTC.pdf",
+      "category": "legal-terms",
+      "priority": 4,
+      "source": "banksa.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsexporting.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsexporting.pdf",
+      "size": 184781,
+      "checksum": "fec25011b55c7dc86e460401f85ea858",
+      "download_time": "2025-06-29T13:38:11.402701",
+      "filename": "accountsexporting.pdf",
+      "category": "banking-products",
+      "priority": 6,
+      "source": "westpac.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.banksa.com.au/content/dam/bsa/documents/pds/BSA-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/BSA-FgnCurrencyAccountTC.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.banksa.com.au/content/dam/bsa/documents/pds/BSA-FgnCurrencyAccountTC.pdf",
+      "filename": "BSA-FgnCurrencyAccountTC.pdf",
+      "category": "legal-terms",
+      "priority": 4,
+      "source": "banksa.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsview.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsview.pdf",
+      "size": 453455,
+      "checksum": "b5ef371caa3e69a28abc50c40e42836f",
+      "download_time": "2025-06-29T13:38:11.547268",
+      "filename": "accountsview.pdf",
+      "category": "banking-products",
+      "priority": 6,
+      "source": "westpac.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/accountsreporting.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsreporting.pdf",
+      "size": 142778,
+      "checksum": "9a63bb4f6a6beb6cb07efef946db1539",
+      "download_time": "2025-06-29T13:38:11.569865",
+      "filename": "accountsreporting.pdf",
+      "category": "banking-products",
+      "priority": 6,
+      "source": "westpac.com.au"
+    },
+    {
+      "success": true,
+      "url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/col/adminaddaccountstocol.pdf",
+      "local_path": "./westpac_pdfs/banking-products/adminaddaccountstocol.pdf",
+      "size": 343820,
+      "checksum": "eaf79527554c9eeacf0acc15b552c91c",
+      "download_time": "2025-06-29T13:38:11.613279",
+      "filename": "adminaddaccountstocol.pdf",
+      "category": "banking-products",
+      "priority": 6,
+      "source": "westpac.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-TLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-TLDProductInformationStatement.pdf",
+      "filename": "BOM-TLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-TLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-TLDProductInformationStatement.pdf",
+      "filename": "BOM-TLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-TLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-TLDProductInformationStatement.pdf",
+      "filename": "BOM-TLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-USTLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-USTLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pdf/BOM-USTLDProductInformationStatement.pdf",
+      "filename": "BOM-USTLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-USTLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-USTLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/documents/pds/BOM-USTLDProductInformationStatement.pdf",
+      "filename": "BOM-USTLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-USTLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BOM-USTLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.bankofmelbourne.com.au/content/dam/bom/downloads/pds/BOM-USTLDProductInformationStatement.pdf",
+      "filename": "BOM-USTLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "bankofmelbourne.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.banksa.com.au/content/dam/bsa/documents/pds/BSA-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BSA-TLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.banksa.com.au/content/dam/bsa/documents/pds/BSA-TLDProductInformationStatement.pdf",
+      "filename": "BSA-TLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "banksa.com.au"
+    },
+    {
+      "success": false,
+      "url": "https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/forms/BSA-TLDProductInformationStatement.pdf",
+      "error": "404 Client Error: Not Found for url: https://www.banksa.com.au/content/dam/bsa/downloads/pds/BSA-TLDProductInformationStatement.pdf",
+      "filename": "BSA-TLDProductInformationStatement.pdf",
+      "category": "forms",
+      "priority": 8,
+      "source": "banksa.com.au"
+    }
+  ]
+}

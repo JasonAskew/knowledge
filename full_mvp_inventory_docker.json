@@ -1,0 +1,192 @@
+{
+  "download_summary": {
+    "total_files": 26,
+    "description": "Full MVP subset with Docker-compatible paths",
+    "source": "All 26 PDFs from MVP inventory",
+    "created_date": "2025-06-30"
+  },
+  "files": [
+    {
+      "filename": "BOM-BonusForwardContractPIS.pdf",
+      "original_url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 202266
+    },
+    {
+      "filename": "BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "original_url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/product-disclosure/BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 166118
+    },
+    {
+      "filename": "BSA-DualCurrencyInvestmentPIS.pdf",
+      "original_url": "https://www.bsa.com.au/content/dam/bsa/downloads/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "size": 2655872
+    },
+    {
+      "filename": "BSA-FlexiForwardPDS.pdf",
+      "original_url": "https://www.bsa.com.au/content/dam/bsa/downloads/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1479654
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "original_url": "https://www.stgeorge.com.au/content/dam/stg/downloads/rates_fees/SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "/data/pdfs/product-disclosure/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "product-disclosure",
+      "size": 198879
+    },
+    {
+      "filename": "SGB-TargetForwardContractPIS.pdf",
+      "original_url": "https://www.stgeorge.com.au/content/dam/stg/downloads/product-disclosure/SGB-TargetForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/SGB-TargetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 787028
+    },
+    {
+      "filename": "USTLD_ProductInformationStatement_WBC.pdf.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/product-disclosure/USTLD_ProductInformationStatement_WBC.pdf.pdf",
+      "local_path": "/data/pdfs/misc/USTLD_ProductInformationStatement_WBC.pdf.pdf",
+      "category": "misc",
+      "size": 235117
+    },
+    {
+      "filename": "WBC 11am Deposit 24 April 2023.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/misc/WBC 11am Deposit 24 April 2023.pdf",
+      "local_path": "/data/pdfs/misc/WBC 11am Deposit 24 April 2023.pdf",
+      "category": "misc",
+      "size": 105716
+    },
+    {
+      "filename": "WBC Fixed Rate Bill 0523.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/misc/WBC Fixed Rate Bill 0523.pdf",
+      "local_path": "/data/pdfs/misc/WBC Fixed Rate Bill 0523.pdf",
+      "category": "misc",
+      "size": 173024
+    },
+    {
+      "filename": "WBC-Agri Loan PIS  15052023.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/product-disclosure/WBC-Agri Loan PIS  15052023.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-Agri Loan PIS  15052023.pdf",
+      "category": "product-disclosure",
+      "size": 151368
+    },
+    {
+      "filename": "WBC-EnhancedForwardContractPIS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/product-disclosure/WBC-EnhancedForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-EnhancedForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 182138
+    },
+    {
+      "filename": "WBC-FXSwapPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-FXSwapPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "size": 87529
+    },
+    {
+      "filename": "WBC-FXTransactionPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-FXTransactionPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 212193
+    },
+    {
+      "filename": "WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/bb/WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "size": 105660
+    },
+    {
+      "filename": "WBC-ForeignExchangeOptionPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-ForeignExchangeOptionPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "size": 204283
+    },
+    {
+      "filename": "WBC-InterestRateSwapPIS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/product-disclosure/WBC-InterestRateSwapPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "size": 423612
+    },
+    {
+      "filename": "WBC-ParticipatingForwardPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-ParticipatingForwardPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 1259072
+    },
+    {
+      "filename": "WBC-RangeForwardPDS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/WBC-RangeForwardPDS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "size": 217164
+    },
+    {
+      "filename": "WBC-TLDProductInformationStatement.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/misc/WBC-TLDProductInformationStatement.pdf",
+      "local_path": "/data/pdfs/misc/WBC-TLDProductInformationStatement.pdf",
+      "category": "misc",
+      "size": 481332
+    },
+    {
+      "filename": "WBC-WindowSmartForwardContractPIS.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/product-disclosure/WBC-WindowSmartForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/WBC-WindowSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 118751
+    },
+    {
+      "filename": "WIB-GreenTailoredDepositsProductInformationStatement.pdf.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/product-disclosure/WIB-GreenTailoredDepositsProductInformationStatement.pdf.pdf",
+      "local_path": "/data/pdfs/misc/WIB-GreenTailoredDepositsProductInformationStatement.pdf.pdf",
+      "category": "misc",
+      "size": 264846
+    },
+    {
+      "filename": "WIBTD 24 April 2023.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/misc/WIBTD 24 April 2023.pdf",
+      "local_path": "/data/pdfs/misc/WIBTD 24 April 2023.pdf",
+      "category": "misc",
+      "size": 257278
+    },
+    {
+      "filename": "sgb-interest-rate-swaption.pdf",
+      "original_url": "https://www.stgeorge.com.au/content/dam/stg/downloads/misc/sgb-interest-rate-swaption.pdf",
+      "local_path": "/data/pdfs/misc/sgb-interest-rate-swaption.pdf",
+      "category": "misc",
+      "size": 2800184
+    },
+    {
+      "filename": "wbc-callable-swap.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/misc/wbc-callable-swap.pdf",
+      "local_path": "/data/pdfs/misc/wbc-callable-swap.pdf",
+      "category": "misc",
+      "size": 228286
+    },
+    {
+      "filename": "wbc-interest-rate-cap-floors-collars_pis.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/misc/wbc-interest-rate-cap-floors-collars_pis.pdf",
+      "local_path": "/data/pdfs/misc/wbc-interest-rate-cap-floors-collars_pis.pdf",
+      "category": "misc",
+      "size": 383139
+    },
+    {
+      "filename": "wbc-interest-rate-swaption.pdf",
+      "original_url": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/aw/misc/wbc-interest-rate-swaption.pdf",
+      "local_path": "/data/pdfs/misc/wbc-interest-rate-swaption.pdf",
+      "category": "misc",
+      "size": 717326
+    }
+  ]
+}

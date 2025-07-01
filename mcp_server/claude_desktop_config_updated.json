@@ -1,0 +1,65 @@
+{
+   "mcpServers":{
+      "neo4j":{
+         "command":"/Users/jaskew/.local/bin/uvx",
+         "args":[
+            "mcp-neo4j-cypher@0.2.3",
+            "--transport",
+            "stdio"
+         ],
+         "env":{
+            "NEO4J_URI":"bolt://localhost:7687",
+            "NEO4J_USERNAME":"neo4j",
+            "NEO4J_PASSWORD":"neo4j2024!",
+            "NEO4J_DATABASE":"neo4j"
+         }
+      },
+      "filesystem":{
+         "command":"npx",
+         "args":[
+            "-y",
+            "@modelcontextprotocol/server-filesystem",
+            "/Users/jaskew/"
+         ]
+      },
+      "pdf-reader": {
+	      "command": "docker",
+	      "args": [
+	        "run",
+	        "-i",
+	        "--rm",
+	        "-v",
+	        "/Users/jaskew/workspace/Skynet/desktop/domains:/pdfs",
+	        "mcp/pdf-reader"
+	      ],
+	      "disabled": false,
+	      "autoApprove": []
+       },
+       "firecrawl-mcp": {
+	      "command": "npx",
+	      "args": ["-y", "firecrawl-mcp"],
+	      "env": {
+	        "FIRECRAWL_API_KEY": "fc-ea59aeb2edfd4902ae8815995b1cdd7d"
+	      }
+    	},
+      "sequential-thinking": {
+	      "command": "npx",
+	      "args": [
+	        "-y",
+	        "@modelcontextprotocol/server-sequential-thinking"
+	      ]
+	    },
+      "knowledge-graph": {
+         "command": "python",
+         "args": [
+            "-m", 
+            "mcp_server.standalone_server"
+         ],
+         "cwd": "/Users/jaskew/workspace/Skynet/claude/knowledge",
+         "env": {
+            "API_BASE_URL": "http://localhost:8000",
+            "PYTHONPATH": "/Users/jaskew/workspace/Skynet/claude/knowledge"
+         }
+      }
+   }
+}

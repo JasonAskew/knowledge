@@ -1,0 +1,50 @@
+{
+  "search_strategies": {
+    "primary": {
+      "type": "vector",
+      "top_k": 10,
+      "rerank_results": true
+    },
+    "fallback": {
+      "type": "graphrag",
+      "top_k": 5,
+      "use_when": "no_match_in_top_5"
+    },
+    "enhanced": {
+      "type": "hybrid",
+      "weights": {
+        "vector": 0.7,
+        "graph": 0.2,
+        "full_text": 0.1
+      },
+      "top_k": 5,
+      "use_when": "complex_query"
+    }
+  },
+  "optimizations": {
+    "chunk_size": 512,
+    "chunk_overlap": 128,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "entity_extraction": "enhanced",
+    "relationship_types": [
+      "REFERENCES",
+      "REQUIRES",
+      "ALTERNATIVE_TO",
+      "PART_OF",
+      "SUPERSEDES"
+    ]
+  },
+  "performance_targets": {
+    "accuracy": 0.9,
+    "response_time_ms": 2000,
+    "concurrent_requests": 10
+  },
+  "recommendations": [
+    "1. Re-index documents with optimized chunk size (512 tokens)",
+    "2. Add document-level metadata for better filtering",
+    "3. Implement query preprocessing to extract key terms",
+    "4. Add caching layer for frequent queries",
+    "5. Create document-specific search weights",
+    "6. Implement result reranking based on query-document similarity"
+  ]
+}

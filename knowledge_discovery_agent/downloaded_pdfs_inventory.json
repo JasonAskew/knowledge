@@ -1,0 +1,2620 @@
+{
+  "download_summary": {
+    "total_files": 435,
+    "download_date": "2025-06-29",
+    "last_updated": "2025-06-29T13:38:16.161245",
+    "base_directory": "./westpac_pdfs"
+  },
+  "files": [
+    {
+      "filename": "101008_IT_and_Productivity_Final.pdf",
+      "local_path": "./westpac_pdfs/misc/101008_IT_and_Productivity_Final.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "1H21_WBC_Presentation_and_IDP.pdf",
+      "local_path": "./westpac_pdfs/misc/1H21_WBC_Presentation_and_IDP.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2003_Concise_Annual_Report_1.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/2003_Concise_Annual_Report_1.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2011_Annual_Review_and_Sustainability_Report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/2011_Annual_Review_and_Sustainability_Report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2012_WBC_Pillar_3_Capital_Update.pdf",
+      "local_path": "./westpac_pdfs/misc/2012_WBC_Pillar_3_Capital_Update.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2013_Annual_Review_and_Sustainability_Report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/2013_Annual_Review_and_Sustainability_Report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2015_UN_Global_Compact_Communication_on_Progress.pdf",
+      "local_path": "./westpac_pdfs/misc/2015_UN_Global_Compact_Communication_on_Progress.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2017_Westpac_Annual_Review_and_Sustainability_Report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/2017_Westpac_Annual_Review_and_Sustainability_Report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2019-ncos-audit-report.pdf",
+      "local_path": "./westpac_pdfs/misc/2019-ncos-audit-report.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2020_Climate_Active_Audit_Report.pdf",
+      "local_path": "./westpac_pdfs/sustainability/2020_Climate_Active_Audit_Report.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2020_Interim_Financial_Results.pdf",
+      "local_path": "./westpac_pdfs/misc/2020_Interim_Financial_Results.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2021_Sustainability_Supplement.pdf",
+      "local_path": "./westpac_pdfs/sustainability/2021_Sustainability_Supplement.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2022_Sustainability_Supplement.pdf",
+      "local_path": "./westpac_pdfs/sustainability/2022_Sustainability_Supplement.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2023-annual-report-on-form-20-F.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/2023-annual-report-on-form-20-F.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "2025_Future_Leaders_Funding_Guidelines.pdf",
+      "local_path": "./westpac_pdfs/brochures/2025_Future_Leaders_Funding_Guidelines.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "3Q23_Capital_Funding_and_Asset_Quality_slides.pdf",
+      "local_path": "./westpac_pdfs/misc/3Q23_Capital_Funding_and_Asset_Quality_slides.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "acceptable-visas.pdf",
+      "local_path": "./westpac_pdfs/misc/acceptable-visas.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "account-closure-form.pdf",
+      "local_path": "./westpac_pdfs/forms/account-closure-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsexporting.pdf",
+      "local_path": "./westpac_pdfs/misc/accountsexporting.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsexporting.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsexporting.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsreporting.pdf",
+      "local_path": "./westpac_pdfs/misc/accountsreporting.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsreporting.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsreporting.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsstopcheques.pdf",
+      "local_path": "./westpac_pdfs/misc/accountsstopcheques.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsview.pdf",
+      "local_path": "./westpac_pdfs/misc/accountsview.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "accountsview.pdf",
+      "local_path": "./westpac_pdfs/banking-products/accountsview.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "adminaddaccountstocol.pdf",
+      "local_path": "./westpac_pdfs/misc/adminaddaccountstocol.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "adminaddaccountstocol.pdf",
+      "local_path": "./westpac_pdfs/banking-products/adminaddaccountstocol.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "admincreateoffice.pdf",
+      "local_path": "./westpac_pdfs/misc/admincreateoffice.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "admincreateuser.pdf",
+      "local_path": "./westpac_pdfs/misc/admincreateuser.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Advantage-Package-Terms.pdf",
+      "local_path": "./westpac_pdfs/misc/Advantage-Package-Terms.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "adviser-registration-client-transfer-form.pdf",
+      "local_path": "./westpac_pdfs/forms/adviser-registration-client-transfer-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Agribusiness_Position_Statement.pdf",
+      "local_path": "./westpac_pdfs/misc/Agribusiness_Position_Statement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Altitude_Business_Conditions_Use.pdf",
+      "local_path": "./westpac_pdfs/misc/Altitude_Business_Conditions_Use.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Anthony-Miller-appointed-CEO-of-Westpac.pdf",
+      "local_path": "./westpac_pdfs/misc/Anthony-Miller-appointed-CEO-of-Westpac.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "AUSTRAC_litigation_update.pdf",
+      "local_path": "./westpac_pdfs/misc/AUSTRAC_litigation_update.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "authorised-representative-form.pdf",
+      "local_path": "./westpac_pdfs/forms/authorised-representative-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BDO_ScamAnalysisReport.pdf",
+      "local_path": "./westpac_pdfs/research/BDO_ScamAnalysisReport.pdf",
+      "category": "research",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM Fixed Rate BBBL 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/BOM Fixed Rate BBBL 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM Fixed Rate Bill 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/BOM Fixed Rate Bill 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM Forward Start Security Agreement 1123.pdf",
+      "local_path": "./westpac_pdfs/misc/BOM Forward Start Security Agreement 1123.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-BonusForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bom-callable-swap.pdf",
+      "local_path": "./westpac_pdfs/misc/bom-callable-swap.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-EnhancedForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-EnhancedForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-FlexiForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-ForeignExchangeOptionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-FXSwapPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-FXTransactionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bom-interest-rate-cap-floors-collars_pis.pdf",
+      "local_path": "./westpac_pdfs/misc/bom-interest-rate-cap-floors-collars_pis.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bom-interest-rate-swaption.pdf",
+      "local_path": "./westpac_pdfs/misc/bom-interest-rate-swaption.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-InterestRateSwapPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-ParticipatingForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-RangeForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-ResetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-ResetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-TargetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-TargetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/misc/BOM-TLDProductInformationStatement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-USTLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/misc/BOM-USTLDProductInformationStatement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM-WindowSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM-WindowSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM_Range_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM_Range_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BOM_Rebate_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BOM_Rebate_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "break-costs-fact-sheet.pdf",
+      "local_path": "./westpac_pdfs/misc/break-costs-fact-sheet.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA FIxed Rate BBBL 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/BSA FIxed Rate BBBL 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA Fixed Rate Bill 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/BSA Fixed Rate Bill 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA Forward Start Security Agreement 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/BSA Forward Start Security Agreement 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-BonusForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bsa-callable-swap.pdf",
+      "local_path": "./westpac_pdfs/misc/bsa-callable-swap.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-EnhancedForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-EnhancedForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/BSA-FgnCurrencyAccountTC.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-FlexiForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-ForeignExchangeOptionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-FXSwapPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-FXTransactionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bsa-interest-rate-cap-floors-collars_pis.pdf",
+      "local_path": "./westpac_pdfs/misc/bsa-interest-rate-cap-floors-collars_pis.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bsa-interest-rate-swaption.pdf",
+      "local_path": "./westpac_pdfs/misc/bsa-interest-rate-swaption.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-InterestRateSwapPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-ParticipatingForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-RangeForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-ResetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-ResetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-TargetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-TargetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/misc/BSA-TLDProductInformationStatement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA-WindowSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA-WindowSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA_Range_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA_Range_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BSA_Rebate_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/BSA_Rebate_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "bt-investment-gearing-cash-management-account-tcs.pdf",
+      "local_path": "./westpac_pdfs/misc/bt-investment-gearing-cash-management-account-tcs.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BT_Securities_Ltd_Financial_Services_Guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/BT_Securities_Ltd_Financial_Services_Guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "business-debit-mastercard-tandc.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/business-debit-mastercard-tandc.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Business_spotlight.pdf",
+      "local_path": "./westpac_pdfs/misc/Business_spotlight.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "businesscards_complimentaryinsurancepolicy.pdf",
+      "local_path": "./westpac_pdfs/policies/businesscards_complimentaryinsurancepolicy.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "BusinessChoiceRewardsPlatinum-Card-QantasBusTC.pdf",
+      "local_path": "./westpac_pdfs/banking-products/BusinessChoiceRewardsPlatinum-Card-QantasBusTC.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "car-insurance-pds.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/car-insurance-pds.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "cash-advance-request-form.pdf",
+      "local_path": "./westpac_pdfs/forms/cash-advance-request-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Cash_Advance_Request_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Cash_Advance_Request_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "cboe_investinginwarrantsbooklet.pdf",
+      "local_path": "./westpac_pdfs/misc/cboe_investinginwarrantsbooklet.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Checklist_IncorporatedAssociation.pdf",
+      "local_path": "./westpac_pdfs/forms/Checklist_IncorporatedAssociation.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Climate_Change_Position_Statement_and_Action_Plan.pdf",
+      "local_path": "./westpac_pdfs/sustainability/Climate_Change_Position_Statement_and_Action_Plan.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "code-of-conduct.pdf",
+      "local_path": "./westpac_pdfs/policies/code-of-conduct.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "colgettingstarted.pdf",
+      "local_path": "./westpac_pdfs/misc/colgettingstarted.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "concise3.pdf",
+      "local_path": "./westpac_pdfs/misc/concise3.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "contact-details-amendments-form.pdf",
+      "local_path": "./westpac_pdfs/forms/contact-details-amendments-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Contact_Details_Amendments_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Contact_Details_Amendments_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "credit-limit-variation-request-form.pdf",
+      "local_path": "./westpac_pdfs/forms/credit-limit-variation-request-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "credit-limit-variation-request-wholesale-form.pdf",
+      "local_path": "./westpac_pdfs/forms/credit-limit-variation-request-wholesale-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Credit_Limit_Assessment_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Credit_Limit_Assessment_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Debit_MasterCard_TandC.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/Debit_MasterCard_TandC.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "December_2011_WNZL_DS.pdf",
+      "local_path": "./westpac_pdfs/misc/December_2011_WNZL_DS.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "deposit-accts-bus-customers-tandc.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/deposit-accts-bus-customers-tandc.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "DI_WBC_budget-planner.pdf",
+      "local_path": "./westpac_pdfs/misc/DI_WBC_budget-planner.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "direct-debit-direct-credit-request-form.pdf",
+      "local_path": "./westpac_pdfs/forms/direct-debit-direct-credit-request-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Diversity_Policy.pdf",
+      "local_path": "./westpac_pdfs/policies/Diversity_Policy.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "dividend-reinvestment-plan.pdf",
+      "local_path": "./westpac_pdfs/misc/dividend-reinvestment-plan.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "fees_wbc.pdf",
+      "local_path": "./westpac_pdfs/fees-charges/fees_wbc.pdf",
+      "category": "fees-charges",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "financial-hardship-assistance-and-credit-reporting.pdf",
+      "local_path": "./westpac_pdfs/banking-products/financial-hardship-assistance-and-credit-reporting.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Financial_Counsellor_Authorisation_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Financial_Counsellor_Authorisation_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FinancingTobacco.pdf",
+      "local_path": "./westpac_pdfs/misc/FinancingTobacco.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "fineprint.pdf",
+      "local_path": "./westpac_pdfs/misc/fineprint.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "First_Home_Buyer_Guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/First_Home_Buyer_Guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "First_Home_Buyers_Article.pdf",
+      "local_path": "./westpac_pdfs/misc/First_Home_Buyers_Article.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "formauaccountsservices.pdf",
+      "local_path": "./westpac_pdfs/forms/formauaccountsservices.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "formauneworgoffice.pdf",
+      "local_path": "./westpac_pdfs/forms/formauneworgoffice.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "formauorgquickstart.pdf",
+      "local_path": "./westpac_pdfs/forms/formauorgquickstart.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "formauuseramendment.pdf",
+      "local_path": "./westpac_pdfs/forms/formauuseramendment.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FSR_DirectEntryPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/FSR_DirectEntryPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FSR_HomeContentInsPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/FSR_HomeContentInsPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FSR_LandlordInsPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/FSR_LandlordInsPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FSR_ProtectionPlansPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/FSR_ProtectionPlansPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FSR_WestpacGeneralFSG.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/FSR_WestpacGeneralFSG.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FX_Global_Code_Liquidity_Provider_Disclosure_Cover_Sheet.pdf",
+      "local_path": "./westpac_pdfs/misc/FX_Global_Code_Liquidity_Provider_Disclosure_Cover_Sheet.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FY19_WBC_Results_Media_Release.pdf",
+      "local_path": "./westpac_pdfs/misc/FY19_WBC_Results_Media_Release.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "FY24-Notable-Items-and-Reporting-Changes.pdf",
+      "local_path": "./westpac_pdfs/misc/FY24-Notable-Items-and-Reporting-Changes.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "getbrokerage.pdf",
+      "local_path": "./westpac_pdfs/misc/getbrokerage.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Global-Order-Execution-Disclosure.pdf",
+      "local_path": "./westpac_pdfs/misc/Global-Order-Execution-Disclosure.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Group_Telephone_Banking_T___C.pdf",
+      "local_path": "./westpac_pdfs/misc/Group_Telephone_Banking_T___C.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "guide-to-westpac-margin-lending.pdf",
+      "local_path": "./westpac_pdfs/brochures/guide-to-westpac-margin-lending.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "houserules.pdf",
+      "local_path": "./westpac_pdfs/misc/houserules.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "how-do-I-identify-myself-for-the-bank.pdf",
+      "local_path": "./westpac_pdfs/misc/how-do-I-identify-myself-for-the-bank.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "How_to_Interview_Guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/How_to_Interview_Guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "IBOR-transition-disclosures-and-articles.pdf",
+      "local_path": "./westpac_pdfs/misc/IBOR-transition-disclosures-and-articles.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "International-Service-Fees-0811.pdf",
+      "local_path": "./westpac_pdfs/fees-charges/International-Service-Fees-0811.pdf",
+      "category": "fees-charges",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "InternetPhoneTerms.pdf",
+      "local_path": "./westpac_pdfs/misc/InternetPhoneTerms.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "intr_assets-and-liabilities.pdf",
+      "local_path": "./westpac_pdfs/misc/intr_assets-and-liabilities.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "intr_ato-residual-value-guidelines.pdf",
+      "local_path": "./westpac_pdfs/brochures/intr_ato-residual-value-guidelines.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "intr_wbc-minimum-documentation-checklist.pdf",
+      "local_path": "./westpac_pdfs/forms/intr_wbc-minimum-documentation-checklist.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Joint_account_on-share_authority_-_Online_Banking_PC2621.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Joint_account_on-share_authority_-_Online_Banking_PC2621.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "l749_pershingllc_financialservicesguide.pdf",
+      "local_path": "./westpac_pdfs/sustainability/l749_pershingllc_financialservicesguide.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Loan-Accounts.pdf",
+      "local_path": "./westpac_pdfs/misc/Loan-Accounts.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Loan-Accounts.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Loan-Accounts.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "loan-refinance-form.pdf",
+      "local_path": "./westpac_pdfs/forms/loan-refinance-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Loan_Refinance_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Loan_Refinance_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Lodging__Managed_Funds_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Lodging__Managed_Funds_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "managed-funds-transaction-form.pdf",
+      "local_path": "./westpac_pdfs/forms/managed-funds-transaction-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "managed-funds-transfer-request.pdf",
+      "local_path": "./westpac_pdfs/misc/managed-funds-transfer-request.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Managed_Funds_Transaction_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Managed_Funds_Transaction_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "media_release_response_plan.pdf",
+      "local_path": "./westpac_pdfs/misc/media_release_response_plan.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "mobileauthorisefiles.pdf",
+      "local_path": "./westpac_pdfs/misc/mobileauthorisefiles.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "mobileauthorisepayments.pdf",
+      "local_path": "./westpac_pdfs/misc/mobileauthorisepayments.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "mobilecreatepayments.pdf",
+      "local_path": "./westpac_pdfs/misc/mobilecreatepayments.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "mobileviewaccounts.pdf",
+      "local_path": "./westpac_pdfs/misc/mobileviewaccounts.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Monthly_chart_pack_August.pdf",
+      "local_path": "./westpac_pdfs/misc/Monthly_chart_pack_August.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "MS_Fees_Charges_Brochure.pdf",
+      "local_path": "./westpac_pdfs/fees-charges/MS_Fees_Charges_Brochure.pdf",
+      "category": "fees-charges",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Net-Zero_2030_Targets_and_Financed_Emissions-our_methodology_and_approach.pdf",
+      "local_path": "./westpac_pdfs/misc/Net-Zero_2030_Targets_and_Financed_Emissions-our_methodology_and_approach.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Next_Home_Buyers_Guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/Next_Home_Buyers_Guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "NOA-add_remove_signatories.pdf",
+      "local_path": "./westpac_pdfs/misc/NOA-add_remove_signatories.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "nominate-financial-adviser-form.pdf",
+      "local_path": "./westpac_pdfs/forms/nominate-financial-adviser-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpbeneficiarydom.pdf",
+      "local_path": "./westpac_pdfs/misc/olpbeneficiarydom.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpbeneficiaryintl.pdf",
+      "local_path": "./westpac_pdfs/misc/olpbeneficiaryintl.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpbpay.pdf",
+      "local_path": "./westpac_pdfs/misc/olpbpay.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpdomesticnew.pdf",
+      "local_path": "./westpac_pdfs/misc/olpdomesticnew.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpfilesnewau.pdf",
+      "local_path": "./westpac_pdfs/misc/olpfilesnewau.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpfundstransfer.pdf",
+      "local_path": "./westpac_pdfs/misc/olpfundstransfer.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpfundstransfercards.pdf",
+      "local_path": "./westpac_pdfs/banking-products/olpfundstransfercards.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpimportfiles.pdf",
+      "local_path": "./westpac_pdfs/misc/olpimportfiles.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olpintlnewau.pdf",
+      "local_path": "./westpac_pdfs/misc/olpintlnewau.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olprecurringcreate.pdf",
+      "local_path": "./westpac_pdfs/misc/olprecurringcreate.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olptaxau.pdf",
+      "local_path": "./westpac_pdfs/misc/olptaxau.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olptemplateexist.pdf",
+      "local_path": "./westpac_pdfs/misc/olptemplateexist.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "olptemplatesnewau.pdf",
+      "local_path": "./westpac_pdfs/misc/olptemplatesnewau.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "online-banking-registration.pdf",
+      "local_path": "./westpac_pdfs/banking-products/online-banking-registration.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Online_Banking_TCs.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Online_Banking_TCs.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "p2wbc99.pdf",
+      "local_path": "./westpac_pdfs/misc/p2wbc99.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "PAP_ConditionsofUse.pdf",
+      "local_path": "./westpac_pdfs/misc/PAP_ConditionsofUse.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "PaymentsPlusRecipientRegistration.pdf",
+      "local_path": "./westpac_pdfs/misc/PaymentsPlusRecipientRegistration.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "pershing_fsg.pdf",
+      "local_path": "./westpac_pdfs/misc/pershing_fsg.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "PersonalAccounts-tandc.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/PersonalAccounts-tandc.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Promontory_Twelfth_Report_FINAL.pdf",
+      "local_path": "./westpac_pdfs/misc/Promontory_Twelfth_Report_FINAL.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsexportcards.pdf",
+      "local_path": "./westpac_pdfs/banking-products/receiptsexportcards.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsexporting.pdf",
+      "local_path": "./westpac_pdfs/misc/receiptsexporting.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsexportschedules.pdf",
+      "local_path": "./westpac_pdfs/misc/receiptsexportschedules.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsmerchants.pdf",
+      "local_path": "./westpac_pdfs/misc/receiptsmerchants.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsreportschedules.pdf",
+      "local_path": "./westpac_pdfs/misc/receiptsreportschedules.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsview.pdf",
+      "local_path": "./westpac_pdfs/misc/receiptsview.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "receiptsviewcards.pdf",
+      "local_path": "./westpac_pdfs/banking-products/receiptsviewcards.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Redraw_Authority.pdf",
+      "local_path": "./westpac_pdfs/misc/Redraw_Authority.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "request-a-fixed-interest-rate-form.pdf",
+      "local_path": "./westpac_pdfs/forms/request-a-fixed-interest-rate-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Request_a_Fixed_Interest_Rate_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Request_a_Fixed_Interest_Rate_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "res0993.pdf",
+      "local_path": "./westpac_pdfs/misc/res0993.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Responsible-Sourcing-Code-of-Conduct.pdf",
+      "local_path": "./westpac_pdfs/policies/Responsible-Sourcing-Code-of-Conduct.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Safeguard_your_valuables.pdf",
+      "local_path": "./westpac_pdfs/misc/Safeguard_your_valuables.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SDLAustraliaSupplementSigned.pdf",
+      "local_path": "./westpac_pdfs/misc/SDLAustraliaSupplementSigned.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SDLHongKongSupplementSigned.pdf",
+      "local_path": "./westpac_pdfs/misc/SDLHongKongSupplementSigned.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SDLLetterSigned.pdf",
+      "local_path": "./westpac_pdfs/misc/SDLLetterSigned.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SDLSingaporeSupplementSigned.pdf",
+      "local_path": "./westpac_pdfs/misc/SDLSingaporeSupplementSigned.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "securitiesblanket.pdf",
+      "local_path": "./westpac_pdfs/misc/securitiesblanket.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB Fixed Rate BBBL 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/SGB Fixed Rate BBBL 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB Fixed Rate Bill 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/SGB Fixed Rate Bill 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-BonusForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sgb-callable-swap.pdf",
+      "local_path": "./westpac_pdfs/misc/sgb-callable-swap.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-EnhancedForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-EnhancedForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/misc/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FgnCurrencyAccountTC.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-FgnCurrencyAccountTC.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FlexiForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-ForeignCurrencyTermDepositPDS_Mar_2020.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-ForeignCurrencyTermDepositPDS_Mar_2020.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-ForeignExchangeOptionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FXSwapPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-FXTransactionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sgb-interest-rate-swaption.pdf",
+      "local_path": "./westpac_pdfs/misc/sgb-interest-rate-swaption.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-InterestRateSwapPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-ParticipatingForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-RangeForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-ResetFowardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-ResetFowardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-TargetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-TargetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/misc/SGB-TLDProductInformationStatement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB-WindowSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB-WindowSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB_Range_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB_Range_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "SGB_Rebate_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/SGB_Rebate_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "share-transfer-request-form.pdf",
+      "local_path": "./westpac_pdfs/forms/share-transfer-request-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-additional-investment-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-additional-investment-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-authority-to-link-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-authority-to-link-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-holding-lock-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-holding-lock-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-investment-and-loan-termination-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-investment-and-loan-termination-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-lodging-shares-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-lodging-shares-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-partial-redemption-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-partial-redemption-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "sma-regular-gearing-form.pdf",
+      "local_path": "./westpac_pdfs/forms/sma-regular-gearing-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Statement_of_Financial_Position.pdf",
+      "local_path": "./westpac_pdfs/misc/Statement_of_Financial_Position.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "STG Forward Start Security Agreement 1123.pdf",
+      "local_path": "./westpac_pdfs/misc/STG Forward Start Security Agreement 1123.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg-cc-fee-charges.pdf",
+      "local_path": "./westpac_pdfs/fees-charges/stg-cc-fee-charges.pdf",
+      "category": "fees-charges",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg-fsg.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/stg-fsg.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg-Identity-Theft-Checklist_290923.pdf",
+      "local_path": "./westpac_pdfs/misc/stg-Identity-Theft-Checklist_290923.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg-interest-rate-cap-floors-collars_pis.pdf",
+      "local_path": "./westpac_pdfs/misc/stg-interest-rate-cap-floors-collars_pis.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg-Malware-Checklist_290923.pdf",
+      "local_path": "./westpac_pdfs/misc/stg-Malware-Checklist_290923.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_amplify_terms_and_conditions.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/stg_amplify_terms_and_conditions.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_credit_card_terms_and_conditions.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/stg_credit_card_terms_and_conditions.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_Data_Breaches_29092023.pdf",
+      "local_path": "./westpac_pdfs/misc/stg_Data_Breaches_29092023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_personal_loan_fees_charges.pdf",
+      "local_path": "./westpac_pdfs/fees-charges/stg_personal_loan_fees_charges.pdf",
+      "category": "fees-charges",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_personal_loan_terms.pdf",
+      "local_path": "./westpac_pdfs/misc/stg_personal_loan_terms.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_personal_overdraft_terms.pdf",
+      "local_path": "./westpac_pdfs/misc/stg_personal_overdraft_terms.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "stg_Phishing_Checklist_09052023.pdf",
+      "local_path": "./westpac_pdfs/misc/stg_Phishing_Checklist_09052023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "supplement-dated-17Feb24-to-prospectus-dated-8Nov24.pdf",
+      "local_path": "./westpac_pdfs/misc/supplement-dated-17Feb24-to-prospectus-dated-8Nov24.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Supplement_WBC_EMTN_Offering_Memorandum.pdf",
+      "local_path": "./westpac_pdfs/misc/Supplement_WBC_EMTN_Offering_Memorandum.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "tasmanian-additional-power-of-attorney.pdf",
+      "local_path": "./westpac_pdfs/misc/tasmanian-additional-power-of-attorney.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Tasmanian_POA.pdf",
+      "local_path": "./westpac_pdfs/misc/Tasmanian_POA.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Technology-simplification-update.pdf",
+      "local_path": "./westpac_pdfs/misc/Technology-simplification-update.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "telephone_banking_t_c.pdf",
+      "local_path": "./westpac_pdfs/banking-products/telephone_banking_t_c.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "termdepositmaturity.pdf",
+      "local_path": "./westpac_pdfs/banking-products/termdepositmaturity.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "termdepositopen.pdf",
+      "local_path": "./westpac_pdfs/banking-products/termdepositopen.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "TermDeposits-tandc.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/TermDeposits-tandc.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "The-wealth-report-2022.pdf",
+      "local_path": "./westpac_pdfs/misc/The-wealth-report-2022.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "The-Wealth-Report-2023.pdf",
+      "local_path": "./westpac_pdfs/misc/The-Wealth-Report-2023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "third-party-security-provider-application-form.pdf",
+      "local_path": "./westpac_pdfs/forms/third-party-security-provider-application-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Third_Party_Access_Authority_-_Online_Banking_PC2617.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Third_Party_Access_Authority_-_Online_Banking_PC2617.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Third_Party_Security_Provider_Application_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Third_Party_Security_Provider_Application_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Tier-2-Capital-Instruments-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/Tier-2-Capital-Instruments-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "transfer-legal-ownership-form.pdf",
+      "local_path": "./westpac_pdfs/forms/transfer-legal-ownership-form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "UBS_FCS_060622.pdf",
+      "local_path": "./westpac_pdfs/misc/UBS_FCS_060622.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "USTLD_ProductInformationStatement_SGB.pdf",
+      "local_path": "./westpac_pdfs/misc/USTLD_ProductInformationStatement_SGB.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "USTLD_ProductInformationStatement_WBC.pdf.pdf",
+      "local_path": "./westpac_pdfs/misc/USTLD_ProductInformationStatement_WBC.pdf.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC 11am Deposit 24 April 2023.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC 11am Deposit 24 April 2023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC Fixed Rate BBBL 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC Fixed Rate BBBL 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC Fixed Rate Bill 0523.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC Fixed Rate Bill 0523.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC Forward Start Security Agreement 1123.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC Forward Start Security Agreement 1123.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-1H24-IDP-and-Presentation.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC-1H24-IDP-and-Presentation.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-2023-climate-report.pdf",
+      "local_path": "./westpac_pdfs/sustainability/wbc-2023-climate-report.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-2023-westpac-foundation-impact-report.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-2023-westpac-foundation-impact-report.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-2024-modern-slavery-statement.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-2024-modern-slavery-statement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-access_and_inclusion_plan_2021-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC-access_and_inclusion_plan_2021-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-Agri Loan PIS  15052023.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-Agri Loan PIS  15052023.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-annual-report-2024.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/wbc-annual-report-2024.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-BonusForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-brokers_introducer-application-pack.pdf",
+      "local_path": "./westpac_pdfs/forms/wbc-brokers_introducer-application-pack.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-brokers_voi-alternative-overseas-identity-certification-qld.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-brokers_voi-alternative-overseas-identity-certification-qld.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-callable-swap.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-callable-swap.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-climate-report-2024.pdf",
+      "local_path": "./westpac_pdfs/sustainability/wbc-climate-report-2024.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-Corporate-Governance-Statement.pdf",
+      "local_path": "./westpac_pdfs/policies/WBC-Corporate-Governance-Statement.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-DualCurrencyInvestmentPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-DualCurrencyInvestmentPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-easy-english-how-to-make-a-complaint-guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/wbc-easy-english-how-to-make-a-complaint-guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-eftpos-now-user-guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/wbc-eftpos-now-user-guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-EMTN-Offering-Memorandum-dated-8-November-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC-EMTN-Offering-Memorandum-dated-8-November-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-EnhancedForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-EnhancedForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-FlexiForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-FlexiForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-foreigncurrencyaccountPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-foreigncurrencyaccountPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-ForeignCurrencyTermDepositPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-ForeignExchangeOptionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-ForeignExchangeOptionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-full-year-presentation-and-IDP-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-full-year-presentation-and-IDP-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-fx-trans-supplement-sept-24.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-fx-trans-supplement-sept-24.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-FXSwapPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-FXSwapPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-FXTransactionPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-FXTransactionPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-guide-to-westpac-residential-construction-loans.pdf",
+      "local_path": "./westpac_pdfs/banking-products/wbc-guide-to-westpac-residential-construction-loans.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-human-rights-position-statement.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC-human-rights-position-statement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-Identity_Theft-Checklist_241023.pdf",
+      "local_path": "./westpac_pdfs/forms/WBC-Identity_Theft-Checklist_241023.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-indigenous-my-business-plan.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-indigenous-my-business-plan.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-interest-rate-cap-floors-collars_pis.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-interest-rate-cap-floors-collars_pis.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-interest-rate-swaption.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-interest-rate-swaption.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-interest-rate-trans-supplement-sept-24.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-interest-rate-trans-supplement-sept-24.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-InterestRateSwapPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-InterestRateSwapPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-Knock-OutSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-Knock-OutSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-last-look-disclosure.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-last-look-disclosure.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-london-order-execution-disclosure.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-london-order-execution-disclosure.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-Malware-Checklist_241023.pdf",
+      "local_path": "./westpac_pdfs/forms/WBC-Malware-Checklist_241023.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-minimum-required-documents-checklist.pdf",
+      "local_path": "./westpac_pdfs/forms/wbc-minimum-required-documents-checklist.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-ParticipatingForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-ParticipatingForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-professional-services-cheat-sheet-succession-planning.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-professional-services-cheat-sheet-succession-planning.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-RangeForwardPDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-RangeForwardPDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-ResetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-ResetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-risk-factors-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-risk-factors-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-sustainable-finance-framework.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-sustainable-finance-framework.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-TargetForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-TargetForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-TLDProductInformationStatement.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC-TLDProductInformationStatement.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-US-annual-report-Form-20-F-2024.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/wbc-US-annual-report-Form-20-F-2024.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc-weg-order-execution-disclosure.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc-weg-order-execution-disclosure.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC-WindowSmartForwardContractPIS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC-WindowSmartForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_070620_UBS.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_070620_UBS.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_2020_sustainability_appendix.pdf",
+      "local_path": "./westpac_pdfs/sustainability/WBC_2020_sustainability_appendix.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_2020_sustainability_performance_report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/WBC_2020_sustainability_performance_report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_2021-2023_Sustainability_Strategy.pdf",
+      "local_path": "./westpac_pdfs/sustainability/WBC_2021-2023_Sustainability_Strategy.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_2022_Annual_Report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/WBC_2022_Annual_Report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_2022_Notice_of_Annual_General_Meeting.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_2022_Notice_of_Annual_General_Meeting.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_3Q22_IDP_FINAL.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_3Q22_IDP_FINAL.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_ASX_1H21.pdf",
+      "local_path": "./westpac_pdfs/investor-centre/WBC_ASX_1H21.pdf",
+      "category": "investor-centre",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc_base_rate.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc_base_rate.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_cc-altitude-black_welcome-brochure.pdf",
+      "local_path": "./westpac_pdfs/brochures/WBC_cc-altitude-black_welcome-brochure.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_CDR_Policy.pdf",
+      "local_path": "./westpac_pdfs/policies/WBC_CDR_Policy.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Consumer_Credit_Card_Comp_Insurance_Allianz.pdf",
+      "local_path": "./westpac_pdfs/banking-products/WBC_Consumer_Credit_Card_Comp_Insurance_Allianz.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_CORE_Program_2021.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_CORE_Program_2021.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Cybersecurity_Infographic_2022.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_Cybersecurity_Infographic_2022.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Divorce-Separation-Checklist.pdf",
+      "local_path": "./westpac_pdfs/forms/WBC_Divorce-Separation-Checklist.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_FactSheet_07FY.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_FactSheet_07FY.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_FY22AR_INTERACTIVE.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_FY22AR_INTERACTIVE.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_GSFDS_June_2010.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_GSFDS_June_2010.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbc_optimise_and_adapt_2024.pdf",
+      "local_path": "./westpac_pdfs/misc/wbc_optimise_and_adapt_2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Phishing_Checklist_09052023.pdf",
+      "local_path": "./westpac_pdfs/forms/WBC_Phishing_Checklist_09052023.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_PMC_060328_Pres.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_PMC_060328_Pres.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_promontorys_fifth_report_may_2022.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_promontorys_fifth_report_may_2022.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_promontorys_seventh_report_october_2022.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_promontorys_seventh_report_october_2022.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Range_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC_Range_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Rebate_PIS_0523.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/WBC_Rebate_PIS_0523.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Scam_Awareness_Guide_Digital.pdf",
+      "local_path": "./westpac_pdfs/brochures/WBC_Scam_Awareness_Guide_Digital.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_SGB_MediaRel_130508.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_SGB_MediaRel_130508.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBC_Wealth_Update_March_2017.pdf",
+      "local_path": "./westpac_pdfs/misc/WBC_Wealth_Update_March_2017.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wbcafr.pdf",
+      "local_path": "./westpac_pdfs/misc/wbcafr.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBCNZUpdate060907.pdf",
+      "local_path": "./westpac_pdfs/misc/WBCNZUpdate060907.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBCTransCodes.pdf",
+      "local_path": "./westpac_pdfs/misc/WBCTransCodes.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WBG_Supplier_Playbook.pdf",
+      "local_path": "./westpac_pdfs/misc/WBG_Supplier_Playbook.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac-2023-AGM-Results.pdf",
+      "local_path": "./westpac_pdfs/investor-centre/Westpac-2023-AGM-Results.pdf",
+      "category": "investor-centre",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-altitude-terms-and-conditions.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/westpac-altitude-terms-and-conditions.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-credit-card-terms-and-conditions.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/westpac-credit-card-terms-and-conditions.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac-first-half-2024-notable-items-reporting-changes.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac-first-half-2024-notable-items-reporting-changes.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-groups-expectations-of-authorised-third-parties.pdf",
+      "local_path": "./westpac_pdfs/misc/westpac-groups-expectations-of-authorised-third-parties.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-lending-portal-support-staff-access.pdf",
+      "local_path": "./westpac_pdfs/misc/westpac-margin-lending-portal-support-staff-access.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-lending-proof-of-identification-guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/westpac-margin-lending-proof-of-identification-guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-loan-application-companies.pdf",
+      "local_path": "./westpac_pdfs/forms/westpac-margin-loan-application-companies.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-loan-application-individuals.pdf",
+      "local_path": "./westpac_pdfs/forms/westpac-margin-loan-application-individuals.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-loan-facility-agreement.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/westpac-margin-loan-facility-agreement.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-margin-loan-product-disclosure-statement.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/westpac-margin-loan-product-disclosure-statement.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-new-zealand-disclosure-statement-march-2023.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/westpac-new-zealand-disclosure-statement-march-2023.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-releases-findings-into-austrac-statement-of-claim-issues-media-release.pdf",
+      "local_path": "./westpac_pdfs/misc/westpac-releases-findings-into-austrac-statement-of-claim-issues-media-release.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac-scholars-website-terms-and-conditions.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/westpac-scholars-website-terms-and-conditions.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_2018_AGM_CEO_address_final_12_Dec.pdf",
+      "local_path": "./westpac_pdfs/investor-centre/Westpac_2018_AGM_CEO_address_final_12_Dec.pdf",
+      "category": "investor-centre",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac_altitude_platinum_welcome.pdf",
+      "local_path": "./westpac_pdfs/brochures/westpac_altitude_platinum_welcome.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_ASX_release_10-01-22.pdf",
+      "local_path": "./westpac_pdfs/investor-centre/Westpac_ASX_release_10-01-22.pdf",
+      "category": "investor-centre",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_AU_2020_Annual_Report.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/Westpac_AU_2020_Annual_Report.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Business_Express_Deposit_T_and_Cs_D5.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_Business_Express_Deposit_T_and_Cs_D5.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac_business_snapshot_february_2024.pdf",
+      "local_path": "./westpac_pdfs/misc/westpac_business_snapshot_february_2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Cash_Investment_Account_T_C.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_Cash_Investment_Account_T_C.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Credit_Guide.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Westpac_Credit_Guide.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Deceased_Estate_Account_Instruction_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/Westpac_Deceased_Estate_Account_Instruction_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_ESG_update_21_Sept_2021.pdf",
+      "local_path": "./westpac_pdfs/sustainability/Westpac_ESG_update_21_Sept_2021.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac_global_markets_user_guide.pdf",
+      "local_path": "./westpac_pdfs/brochures/westpac_global_markets_user_guide.pdf",
+      "category": "brochures",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Group_2019_Sustainability_Performance_Report.pdf",
+      "local_path": "./westpac_pdfs/sustainability/Westpac_Group_2019_Sustainability_Performance_Report.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Group_Summary_Conflicts_of_Interest_Policy.pdf",
+      "local_path": "./westpac_pdfs/policies/Westpac_Group_Summary_Conflicts_of_Interest_Policy.pdf",
+      "category": "policies",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "westpac_lite_card_welcome.pdf",
+      "local_path": "./westpac_pdfs/banking-products/westpac_lite_card_welcome.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_NZ_Independent_External_Review_2023.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_NZ_Independent_External_Review_2023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_NZ_Market_Update_March_2016.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_NZ_Market_Update_March_2016.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Online_Investment_Loan_Application.pdf",
+      "local_path": "./westpac_pdfs/forms/Westpac_Online_Investment_Loan_Application.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Online_Investment_Loan_Facility_Agreement.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/Westpac_Online_Investment_Loan_Facility_Agreement.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Online_Investment_Loan_Guide.pdf",
+      "local_path": "./westpac_pdfs/banking-products/Westpac_Online_Investment_Loan_Guide.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Online_Investment_Loan_PDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/Westpac_Online_Investment_Loan_PDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Pillar_3_Report_(September_2017).pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_Pillar_3_Report_(September_2017).pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Scams.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_Scams.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Self-Assessment_Report_.pdf",
+      "local_path": "./westpac_pdfs/misc/Westpac_Self-Assessment_Report_.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Westpac_Sustainability_Report_2016.pdf",
+      "local_path": "./westpac_pdfs/sustainability/Westpac_Sustainability_Report_2016.pdf",
+      "category": "sustainability",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WestpacCCEPositionStatement2014.pdf",
+      "local_path": "./westpac_pdfs/misc/WestpacCCEPositionStatement2014.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WestpacFoundation_CSI_report_Aug2019.pdf",
+      "local_path": "./westpac_pdfs/misc/WestpacFoundation_CSI_report_Aug2019.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WestpacWeekly.pdf",
+      "local_path": "./westpac_pdfs/misc/WestpacWeekly.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WG-AnnualReport-2023.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/WG-AnnualReport-2023.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WIB-GreenTailoredDepositsProductInformationStatement.pdf.pdf",
+      "local_path": "./westpac_pdfs/misc/WIB-GreenTailoredDepositsProductInformationStatement.pdf.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wibe030_eto_pds.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/wibe030_eto_pds.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WIBTD 24 April 2023.pdf",
+      "local_path": "./westpac_pdfs/misc/WIBTD 24 April 2023.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WNZL-EMTN-Update-Prospectus-2024.pdf",
+      "local_path": "./westpac_pdfs/misc/WNZL-EMTN-Update-Prospectus-2024.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WOIL_Authorised_Representative_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/WOIL_Authorised_Representative_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WOIL_break_costs_fact_sheet.pdf",
+      "local_path": "./westpac_pdfs/misc/WOIL_break_costs_fact_sheet.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WOIL_directdebit_credit.pdf",
+      "local_path": "./westpac_pdfs/banking-products/WOIL_directdebit_credit.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WOIL_Loan_Repayment_Form.pdf",
+      "local_path": "./westpac_pdfs/forms/WOIL_Loan_Repayment_Form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WOIL_share_transfer_request.pdf",
+      "local_path": "./westpac_pdfs/misc/WOIL_share_transfer_request.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "worldwide-wallet-PDS.pdf",
+      "local_path": "./westpac_pdfs/product-disclosure/worldwide-wallet-PDS.pdf",
+      "category": "product-disclosure",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WSNZL-Annual-Report-30-September-2024-F.pdf",
+      "local_path": "./westpac_pdfs/annual-reports/WSNZL-Annual-Report-30-September-2024-F.pdf",
+      "category": "annual-reports",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1002authoritytotrade.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1002authoritytotrade.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1003sharetradingaccountapplicationindividualandjoint.pdf",
+      "local_path": "./westpac_pdfs/forms/wst1003sharetradingaccountapplicationindividualandjoint.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1004.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1004.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1005_change_of_address_contact_details.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1005_change_of_address_contact_details.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1006_warrant_client_agreement.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/wst1006_warrant_client_agreement.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1007_change_of_personal_name.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1007_change_of_personal_name.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1010.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1010.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1012directdebitdirectcreditrequest.pdf",
+      "local_path": "./westpac_pdfs/banking-products/wst1012directdebitdirectcreditrequest.pdf",
+      "category": "banking-products",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1017sharetradingaccountapplicationtrustandcompany.pdf",
+      "local_path": "./westpac_pdfs/legal-terms/wst1017sharetradingaccountapplicationtrustandcompany.pdf",
+      "category": "legal-terms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1018asxcompanydirectorauthority.pdf",
+      "local_path": "./westpac_pdfs/investor-centre/wst1018asxcompanydirectorauthority.pdf",
+      "category": "investor-centre",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1020_bestexecutiondisclosure.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1020_bestexecutiondisclosure.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1023_identification_documentation_requirements.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1023_identification_documentation_requirements.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1033_chess_sponsorship_and_broker_to_broker_transfer.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1033_chess_sponsorship_and_broker_to_broker_transfer.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1053partlypaidsecuritiesbranded.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1053partlypaidsecuritiesbranded.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1054_off_market_transfer_form_for_issuer_to_chess_transactions.pdf",
+      "local_path": "./westpac_pdfs/forms/wst1054_off_market_transfer_form_for_issuer_to_chess_transactions.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1054offmarkettransfer.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1054offmarkettransfer.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1056offmarketstandardtransfer.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1056offmarketstandardtransfer.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1058_jobs_and_industry_classification_list.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1058_jobs_and_industry_classification_list.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1086_globalmarketsetoapplicationform.pdf",
+      "local_path": "./westpac_pdfs/forms/wst1086_globalmarketsetoapplicationform.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1091_0916_w8_instructions_individuals.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1091_0916_w8_instructions_individuals.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst1096_0916_w8_instructions_trusts.pdf",
+      "local_path": "./westpac_pdfs/misc/wst1096_0916_w8_instructions_trusts.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst3002_account_closure_request_form.pdf",
+      "local_path": "./westpac_pdfs/forms/wst3002_account_closure_request_form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "wst912_document_certification_form.pdf",
+      "local_path": "./westpac_pdfs/forms/wst912_document_certification_form.pdf",
+      "category": "forms",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "WT_Export_Documentary_Colle1.pdf",
+      "local_path": "./westpac_pdfs/misc/WT_Export_Documentary_Colle1.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    },
+    {
+      "filename": "Your_CV.pdf",
+      "local_path": "./westpac_pdfs/misc/Your_CV.pdf",
+      "category": "misc",
+      "source": "autonomous-discovery"
+    }
+  ]
+}

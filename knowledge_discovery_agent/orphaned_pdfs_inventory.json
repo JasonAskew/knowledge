@@ -1,0 +1,65 @@
+{
+  "orphaned_summary": {
+    "total_files": 5,
+    "audit_date": "2025-06-26T13:50:35.704818",
+    "last_updated": "2025-06-29T13:36:00.000000",
+    "base_directory": "orphaned_pdfs",
+    "reason": "not_found_on_web or not_in_verified_inventory"
+  },
+  "files": [
+    {
+      "filename": "empowwwer.pdf",
+      "original_url": null,
+      "local_path": "orphaned_pdfs/misc/empowwwer.pdf",
+      "original_path": "westpac_pdfs/misc/empowwwer.pdf",
+      "category": "misc",
+      "size": 281500,
+      "tested_urls": 22,
+      "orphaned_date": "2025-06-26T13:50:35.704818"
+    },
+    {
+      "filename": "WBC Fixed Rate BBBL 0225.pdf",
+      "original_url": null,
+      "local_path": "orphaned_pdfs/misc/WBC Fixed Rate BBBL 0225.pdf",
+      "original_path": "wib/data/WBC Fixed Rate BBBL 0225.pdf",
+      "category": "misc",
+      "size": 201956,
+      "tested_urls": 0,
+      "orphaned_date": "2025-06-29T13:36:00.000000",
+      "notes": "From MVP set - not found in verified inventory"
+    },
+    {
+      "filename": "WBC Forward Start Security Agreement 0824.pdf",
+      "original_url": null,
+      "local_path": "orphaned_pdfs/misc/WBC Forward Start Security Agreement 0824.pdf",
+      "original_path": "wib/data/WBC Forward Start Security Agreement 0824.pdf",
+      "category": "misc",
+      "size": 640744,
+      "tested_urls": 0,
+      "orphaned_date": "2025-06-29T13:36:00.000000",
+      "notes": "From MVP set - not found in verified inventory"
+    },
+    {
+      "filename": "WBC_Range_PIS_0425.pdf",
+      "original_url": null,
+      "local_path": "orphaned_pdfs/misc/WBC_Range_PIS_0425.pdf",
+      "original_path": "wib/data/WBC_Range_PIS_0425.pdf",
+      "category": "misc",
+      "size": 383018,
+      "tested_urls": 0,
+      "orphaned_date": "2025-06-29T13:36:00.000000",
+      "notes": "From MVP set - not found in verified inventory"
+    },
+    {
+      "filename": "WBC_Rebate_PIS_0225.pdf",
+      "original_url": null,
+      "local_path": "orphaned_pdfs/misc/WBC_Rebate_PIS_0225.pdf",
+      "original_path": "wib/data/WBC_Rebate_PIS_0225.pdf",
+      "category": "misc",
+      "size": 487389,
+      "tested_urls": 0,
+      "orphaned_date": "2025-06-29T13:36:00.000000",
+      "notes": "From MVP set - not found in verified inventory"
+    }
+  ]
+}

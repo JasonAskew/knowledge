@@ -1,0 +1,28 @@
+{
+  "search_config": {
+    "reranking": {
+      "enabled": true,
+      "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "weights": {
+        "cross_encoder": 0.5,
+        "original_score": 0.3,
+        "keyword_match": 0.1,
+        "query_type_match": 0.1
+      }
+    },
+    "chunking": {
+      "size": 512,
+      "overlap": 128,
+      "method": "recursive"
+    },
+    "query_preprocessing": {
+      "extract_entities": true,
+      "expand_abbreviations": true,
+      "detect_intent": true
+    }
+  },
+  "performance_targets": {
+    "accuracy": 0.9,
+    "response_time_ms": 2000
+  }
+}

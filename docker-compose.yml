@@ -1,0 +1,146 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: knowledge-neo4j
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/knowledge123  # Change in production
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+      - NEO4J_dbms_memory_pagecache_size=2G
+      - NEO4J_dbms_memory_heap_initial__size=2G
+      - NEO4J_dbms_memory_heap_max__size=4G
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*,gds.*
+      - NEO4J_dbms_security_procedures_allowlist=apoc.*,gds.*
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+      - neo4j_plugins:/plugins
+    healthcheck:
+      test: ["CMD", "neo4j", "status"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks:
+      - knowledge-network
+
+  knowledge-discovery:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.discovery
+    container_name: knowledge-discovery
+    volumes:
+      - ./knowledge_discovery_agent:/app
+      - ./data/pdfs:/data/pdfs
+      - ./data/inventories:/data/inventories
+      - ~/.aws:/root/.aws:ro  # AWS credentials (read-only)
+    environment:
+      - AWS_DEFAULT_REGION=us-east-1
+      - S3_BUCKET=knowledge4westpac
+      - LOG_LEVEL=INFO
+    networks:
+      - knowledge-network
+    command: ["python", "knowledge_discovery_agent_v2.py", "--base-path", "/data/pdfs"]
+
+  knowledge-ingestion:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.ingestion
+    container_name: knowledge-ingestion
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - ./knowledge_discovery_agent/westpac_pdfs:/data/pdfs:ro  # Read-only access to PDFs
+      - ./full_mvp_inventory_docker.json:/data/inventories/mvp_inventory.json:ro
+      - ./data/processed:/data/processed
+      - ./data/backups:/data/backups:ro  # Mount backups directory for bootstrap
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=knowledge123
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    networks:
+      - knowledge-network
+    command: ["/app/entrypoint.sh"]
+
+  knowledge-api:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.api
+    container_name: knowledge-api
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      knowledge-ingestion:
+        condition: service_started
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/processed:/data/processed:ro
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=knowledge123
+      - PYTHONUNBUFFERED=1
+    networks:
+      - knowledge-network
+    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  test-runner:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.test
+    container_name: test-runner
+    depends_on:
+      knowledge-api:
+        condition: service_started
+    volumes:
+      - ./knowledge_test_agent:/app
+      - ./data/test_results:/data/test_results
+    environment:
+      - API_URL=http://knowledge-api:8000
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=knowledge123
+    networks:
+      - knowledge-network
+    profiles:
+      - test  # Only run when explicitly requested
+
+  bootstrap:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.ingestion
+    container_name: knowledge-bootstrap
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - ./scripts:/scripts:ro
+      - ./data/backups:/data/backups:ro
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=knowledge123
+    networks:
+      - knowledge-network
+    profiles:
+      - bootstrap  # Only run when explicitly requested
+    command: ["python", "/scripts/bootstrap_neo4j.py", "--force"]
+
+networks:
+  knowledge-network:
+    driver: bridge
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:

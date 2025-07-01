@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "knowledge-graph": {
+      "command": "python",
+      "args": ["-m", "mcp_server.standalone_server"],
+      "cwd": "/path/to/knowledge/system",
+      "env": {
+        "API_BASE_URL": "http://localhost:8000"
+      }
+    }
+  }
+}

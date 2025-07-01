@@ -1,0 +1,11 @@
+# Enhanced MCP Server Requirements
+mcp>=0.1.0
+requests>=2.31.0
+neo4j>=5.0.0  # Neo4j Python driver for proxy functionality
+
+# Optional: Full Neo4j MCP package (if available)
+# neo4j-mcp>=0.1.0
+
+# For development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

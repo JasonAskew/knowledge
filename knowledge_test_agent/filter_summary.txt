@@ -1,0 +1,38 @@
+Test CSV Filtering Summary
+========================
+
+Original test cases: 90
+Removed test cases: 10
+Remaining test cases: 80
+
+Removed test cases:
+  Row 22: WBC Fixed Rate BBBL 0225.pdf
+    Question: What is a fixed rate bank bill business loan?
+
+  Row 28: WBC Fixed Rate BBBL 0225.pdf
+    Question: What is a FRR-BBBL?
+
+  Row 29: WBC Fixed Rate BBBL 0225.pdf
+    Question: What are the benefits of a FRR-BBBL to cover interest rate risk?
+
+  Row 30: WBC Fixed Rate BBBL 0225.pdf
+    Question: What are the break costs of a FRR-BBBL?
+
+  Row 31: WBC Fixed Rate BBBL 0225.pdf
+    Question: My customer is a retail customer, and wants to do a $300,000 FR BBBL  transaction for a period of 3 years. What are the steps to onboard a new FR BBBL?
+
+  Row 32: WBC_Rebate_PIS_0225.pdf
+    Question: What are the risks of entering a RFR-BBBL?
+
+  Row 33: WBC_Rebate_PIS_0225.pdf
+    Question: What is a RFR-BBBL?
+
+  Row 34: WBC Forward Start Security Agreement 0824
+    Question: When is the customer required to enter into a Forward Start Security Agreement?
+
+  Row 35: WBC Forward Start Security Agreement 0824
+    Question: What is the purpose of a forward start security agreement?
+
+  Row 90: WBC Fixed Rate BBBL 0225.pdf
+    Question: What is the minimum and maximum term for a FR-BBBL?
+

@@ -1,0 +1,27 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+    pandas \
+    requests \
+    pytest \
+    neo4j
+
+# Copy test files
+COPY knowledge_test_agent/ .
+
+# Create directories
+RUN mkdir -p /data/test_results
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+
+CMD ["python", "run_tests.py"]

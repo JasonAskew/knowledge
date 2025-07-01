@@ -1,0 +1,13 @@
+{
+  "title": "Test Single File",
+  "description": "Test with one file",
+  "files": [
+    {
+      "filename": "BOM-BonusForwardContractPIS.pdf",
+      "original_url": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "local_path": "/data/pdfs/product-disclosure/BOM-BonusForwardContractPIS.pdf",
+      "category": "product-disclosure",
+      "size": 202266
+    }
+  ]
+}

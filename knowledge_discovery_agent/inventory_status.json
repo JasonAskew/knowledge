@@ -1,0 +1,20 @@
+{
+  "consolidation_date": "2025-06-26T16:24:52.898197",
+  "inventory_files": {
+    "verified": {
+      "path": "agents/downloaded_pdfs_inventory_verified.json",
+      "count": 187,
+      "purpose": "Tracks all PDFs successfully downloaded and stored in westpac_pdfs/"
+    },
+    "orphaned": {
+      "path": "agents/orphaned_pdfs_inventory.json",
+      "count": 241,
+      "purpose": "Tracks PDFs that need URL discovery and moving to westpac_pdfs/"
+    }
+  },
+  "notes": [
+    "All inventories consolidated to agents/ directory",
+    "Removed duplicate inventory files from root directory",
+    "Use only these two inventory files going forward"
+  ]
+}

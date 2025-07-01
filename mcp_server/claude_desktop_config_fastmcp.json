@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "knowledge-graph-enhanced": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server.enhanced_server"
+      ],
+      "env": {
+        "API_BASE_URL": "http://localhost:8000",
+        "NEO4J_URI": "bolt://localhost:7687",
+        "NEO4J_USERNAME": "neo4j",
+        "NEO4J_PASSWORD": "password",
+        "NEO4J_DATABASE": "neo4j",
+        "PYTHONPATH": "/path/to/knowledge/mcp_server"
+      }
+    },
+    "knowledge-graph-simple": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server.simple_server"
+      ],
+      "env": {
+        "API_BASE_URL": "http://localhost:8000",
+        "PYTHONPATH": "/path/to/knowledge/mcp_server"
+      }
+    }
+  }
+}
