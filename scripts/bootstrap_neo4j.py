@@ -239,6 +239,75 @@ class Neo4jBootstrapper:
             
             return True
     
+    def _fix_chunk_relationships(self):
+        """Fix missing HAS_CHUNK relationships between documents and chunks."""
+        with self.driver.session() as session:
+            # Check for orphaned chunks
+            result = session.run("""
+                MATCH (c:Chunk) 
+                WHERE NOT (c)<-[:HAS_CHUNK]-(:Document)
+                RETURN count(c) as orphaned_count
+            """)
+            orphaned_count = result.single()["orphaned_count"]
+            
+            if orphaned_count == 0:
+                logger.info("No orphaned chunks found.")
+                return
+            
+            logger.info(f"Found {orphaned_count} orphaned chunks. Fixing...")
+            
+            # Fix using multiple strategies
+            strategies = [
+                # Strategy 1: Exact match with document.id + '_p'
+                """
+                MATCH (c:Chunk) 
+                WHERE c.id IS NOT NULL AND NOT (c)<-[:HAS_CHUNK]-(:Document)
+                WITH c
+                MATCH (d:Document)
+                WHERE c.id STARTS WITH d.id + '_p'
+                CREATE (d)-[:HAS_CHUNK]->(c)
+                RETURN count(*) as fixed_count
+                """,
+                # Strategy 2: Split by '_p'
+                """
+                MATCH (c:Chunk) 
+                WHERE c.id IS NOT NULL AND NOT (c)<-[:HAS_CHUNK]-(:Document)
+                WITH c, split(c.id, '_p')[0] as doc_id_prefix
+                MATCH (d:Document) 
+                WHERE d.id = doc_id_prefix
+                CREATE (d)-[:HAS_CHUNK]->(c)
+                RETURN count(*) as fixed_count
+                """,
+                # Strategy 3: Split by '_' for remaining
+                """
+                MATCH (c:Chunk) 
+                WHERE c.id IS NOT NULL AND NOT (c)<-[:HAS_CHUNK]-(:Document)
+                WITH c, split(c.id, '_')[0] as doc_id_prefix
+                MATCH (d:Document) 
+                WHERE d.id = doc_id_prefix
+                CREATE (d)-[:HAS_CHUNK]->(c)
+                RETURN count(*) as fixed_count
+                """
+            ]
+            
+            total_fixed = 0
+            for i, strategy in enumerate(strategies, 1):
+                result = session.run(strategy)
+                fixed = result.single()["fixed_count"]
+                if fixed > 0:
+                    logger.info(f"Strategy {i} fixed {fixed} chunks")
+                    total_fixed += fixed
+            
+            # Update chunk counts
+            session.run("""
+                MATCH (d:Document)
+                OPTIONAL MATCH (d)-[:HAS_CHUNK]->(c:Chunk)
+                WITH d, count(c) as chunk_count
+                SET d.chunk_count = chunk_count
+            """)
+            
+            logger.info(f"Fixed {total_fixed} chunk relationships total")
+    
     def bootstrap_from_file(self, import_file: str, force: bool = False) -> bool:
         """Main bootstrap method that orchestrates the import process."""
         try:
@@ -283,6 +352,10 @@ class Neo4jBootstrapper:
                 logger.info("Import verification passed!")
             else:
                 logger.warning("Import verification failed!")
+            
+            # Fix chunk relationships if needed
+            logger.info("Checking and fixing chunk relationships...")
+            self._fix_chunk_relationships()
             
             # Print summary
             logger.info("\nImport Summary:")

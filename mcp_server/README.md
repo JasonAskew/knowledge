@@ -1,82 +1,53 @@
-# Knowledge Graph MCP Server
+# Neo4j MCP Proxy Server
 
-This is an MCP (Model Context Protocol) server that provides access to the Knowledge Graph System with GraphRAG capabilities.
+This directory contains the MCP (Model Context Protocol) server that provides Neo4j database access to Claude Desktop.
 
-## Features
+## Current Implementation
 
-- **Search Knowledge Base**: Search using vector, graph, hybrid, or text2cypher methods
-- **Direct Cypher Queries**: Execute Cypher queries on the Neo4j graph
-- **Document Management**: List and retrieve document information
-- **Resource Access**: Direct access to document content
+The active MCP server is `neo4j_exact_proxy.py`, which exposes exactly the same tools as the official `mcp-neo4j-cypher` server:
 
-## Installation
+### Tools
 
-### For Development
-
-```bash
-cd mcp_server
-pip install -e .
-```
-
-### For Production
-
-```bash
-pip install .
-```
-
-## Usage
-
-### Running the Server
-
-```bash
-knowledge-graph-mcp
-```
-
-Or using Python directly:
-
-```bash
-python -m mcp_server.server
-```
-
-### Available Tools
-
-1. **search_knowledge**: Search the knowledge graph
+1. **read-neo4j-cypher**
+   - Execute Cypher read queries
    - Parameters:
-     - `query` (required): Search query
-     - `search_type`: "vector", "graph", "hybrid", or "text2cypher" (default: "hybrid")
-     - `limit`: Maximum results (default: 5)
-     - `rerank`: Enable reranking (default: true)
+     - `query` (string): Cypher read query
+     - `params` (dict, optional): Query parameters
 
-2. **query_cypher**: Execute Cypher queries
+2. **write-neo4j-cypher**
+   - Execute Cypher write/update queries
    - Parameters:
-     - `query` (required): Cypher query string
+     - `query` (string): Cypher update query
+     - `params` (dict, optional): Query parameters
 
-3. **get_document_info**: Get document metadata
-   - Parameters:
-     - `document_name` (required): Document filename
+3. **get-neo4j-schema**
+   - Retrieve database schema information
+   - No parameters required
+   - Returns: Node labels, relationships, constraints, indexes, and properties
 
-4. **list_documents**: List all documents
-   - Parameters:
-     - `limit`: Maximum documents to return (default: 50)
+## Configuration
 
-## Claude Desktop Configuration
+The server is configured in Claude Desktop's config file located at:
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+- Linux: `~/.config/claude/claude_desktop_config.json`
 
-Add this to your Claude Desktop configuration file:
-
-### macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-### Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-### Linux: `~/.config/claude/claude_desktop_config.json`
+### Configuration Example
 
 ```json
 {
   "mcpServers": {
     "knowledge-graph": {
-      "command": "knowledge-graph-mcp",
+      "command": "/opt/anaconda3/bin/python3",
+      "args": [
+        "/path/to/mcp_server/neo4j_exact_proxy.py"
+      ],
+      "cwd": "/path/to/knowledge",
       "env": {
         "NEO4J_URI": "bolt://localhost:7687",
-        "NEO4J_USER": "neo4j",
+        "NEO4J_USERNAME": "neo4j",
         "NEO4J_PASSWORD": "your-password",
-        "API_BASE_URL": "http://localhost:8000"
+        "NEO4J_DATABASE": "neo4j"
       }
     }
   }
@@ -85,38 +56,44 @@ Add this to your Claude Desktop configuration file:
 
 ## Environment Variables
 
-The server requires the following environment variables:
+The server uses the following environment variables:
 
-- `NEO4J_URI`: Neo4j connection URI (default: bolt://localhost:7687)
-- `NEO4J_USER`: Neo4j username (default: neo4j)
-- `NEO4J_PASSWORD`: Neo4j password
-- `API_BASE_URL`: Base URL for the Knowledge API (default: http://localhost:8000)
+- `NEO4J_URI`: Neo4j connection URI (default: `bolt://localhost:7687`)
+- `NEO4J_USERNAME`: Neo4j username (default: `neo4j`)
+- `NEO4J_PASSWORD`: Neo4j password (required)
+- `NEO4J_DATABASE`: Neo4j database name (default: `neo4j`)
 
-## Docker Support
+## Files
 
-To run the MCP server in Docker:
+- `neo4j_exact_proxy.py` - The active MCP server implementation
+- `server.py` - Original server implementation (deprecated)
+- `check_neo4j_data.py` - Utility to verify Neo4j connection and data
+- `archive/` - Contains previous implementations and experiments
 
+## Testing
+
+To test the server locally:
 ```bash
-docker build -f Dockerfile.mcp -t knowledge-mcp .
-docker run -p 5000:5000 \
-  -e NEO4J_URI=bolt://neo4j:7687 \
-  -e NEO4J_USER=neo4j \
-  -e NEO4J_PASSWORD=password \
-  knowledge-mcp
+NEO4J_PASSWORD=your-password python neo4j_exact_proxy.py
 ```
 
-## Example Usage in Claude
+The server will connect to Neo4j and wait for MCP protocol commands via stdin.
 
-Once configured, you can use the knowledge graph in Claude Desktop:
+## Example Usage in Claude Desktop
 
-```
-Use the knowledge-graph tool to search for information about minimum account balances
-```
+Once configured, you can use these tools in Claude Desktop:
 
-```
-Query the knowledge graph for all documents related to foreign exchange options
-```
+1. **Read queries**:
+   ```
+   Use read-neo4j-cypher to find all Document nodes
+   ```
 
-```
-Execute a Cypher query to find all entities related to interest rates
-```
+2. **Schema inspection**:
+   ```
+   Use get-neo4j-schema to show me the database structure
+   ```
+
+3. **Write operations**:
+   ```
+   Use write-neo4j-cypher to create a new node with label Test
+   ```

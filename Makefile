@@ -20,6 +20,7 @@ help:
 	@echo "  make export           - Export Neo4j database to JSON"
 	@echo "  make import           - Import Neo4j database from JSON"
 	@echo "  make bootstrap        - Bootstrap database from latest export (force)"
+	@echo "  make fix-relationships - Fix missing chunk relationships after import"
 	@echo "  make list-backups     - List available backups"
 	@echo "  make clean-backups    - Clean old backups (keep last 5)"
 	@echo ""
@@ -202,6 +203,11 @@ import:
 	@echo "📥 Importing from latest backup..."
 	@python scripts/bootstrap_neo4j.py
 	@echo "✅ Import completed!"
+
+# Fix chunk relationships
+fix-relationships:
+	@echo "🔧 Fixing chunk relationships..."
+	@NEO4J_PASSWORD=knowledge123 python scripts/fix_chunk_relationships.py
 
 # Bootstrap from backup (force)
 bootstrap:
