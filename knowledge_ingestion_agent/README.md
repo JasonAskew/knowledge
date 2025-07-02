@@ -18,7 +18,7 @@ Autonomous agent for ingesting, processing, and indexing PDF documents into a Ne
 - **Confidence Scoring**: Entity confidence ratings
 
 ### Embeddings & Deduplication
-- **BGE-Small Embeddings**: 384-dimensional vectors for semantic search
+- **BGE-Small Embeddings**: BAAI/bge-small-en-v1.5 for semantic search
 - **Content Deduplication**: Hash-based and semantic similarity deduplication
 - **Entity Deduplication**: TF-IDF with cosine similarity (0.85 threshold)
 - **Batch Generation**: Efficient batch embedding generation
@@ -57,18 +57,18 @@ python -m spacy download en_core_web_sm
 # Process MVP inventory
 python knowledge_ingestion_agent.py \
   --inventory ../knowledge_discovery_agent/mvp_inventory.json \
-  --neo4j-password your-password
+  --neo4j-password knowledge123
 
-# Process all verified PDFs
+# Process all Westpac PDFs (435 documents)
 python knowledge_ingestion_agent.py \
-  --inventory ../knowledge_discovery_agent/downloaded_pdfs_inventory_verified.json \
-  --neo4j-password your-password \
+  --inventory ../knowledge_discovery_agent/full_westpac_inventory_fixed.json \
+  --neo4j-password knowledge123 \
   --workers 8
 
 # With graph optimization
 python knowledge_ingestion_agent.py \
   --inventory ../knowledge_discovery_agent/mvp_inventory.json \
-  --neo4j-password your-password \
+  --neo4j-password knowledge123 \
   --optimize
 ```
 
@@ -116,16 +116,22 @@ num_workers = 4  # parallel processes
 
 # Deduplication
 similarity_threshold = 0.85  # for semantic dedup
+
+# Enhanced chunking features
+semantic_density_threshold = 0.7
+max_tokens_per_chunk = 500
 ```
 
 ### Search Weights (Hybrid)
 ```python
 weights = {
-    'vector': 0.4,      # Semantic similarity
+    'vector': 0.5,      # Semantic similarity (increased)
     'graph': 0.3,       # Entity relationships
     'full_text': 0.2,   # Keyword matching
-    'query_boost': 0.1  # Query-type boosting
 }
+
+# Cross-encoder reranking
+reranker_model = 'cross-encoder/ms-marco-MiniLM-L-12-v2'
 ```
 
 ## Architecture
@@ -171,7 +177,8 @@ Query → Query Analysis → Multi-Path Retrieval → Result Fusion → Ranking
 ### Ingestion Performance
 - **Single PDF**: ~5-10 seconds
 - **Batch (10 PDFs)**: ~1-2 minutes with 4 workers
-- **Full Collection (430 PDFs)**: ~30-45 minutes with 8 workers
+- **Full Collection (435 PDFs)**: ~30-45 minutes with 8 workers
+- **Current Database**: 75,773 nodes, 592,823 relationships
 
 ### Search Performance
 - **Vector Search**: <100ms for top-10
@@ -186,14 +193,15 @@ Query → Query Analysis → Multi-Path Retrieval → Result Fusion → Ranking
 
 ## Monitoring
 
-### Ingestion Statistics
+### Ingestion Statistics (Current)
 ```json
 {
-  "documents_processed": 26,
-  "chunks_created": 1250,
-  "entities_extracted": 3500,
-  "duplicates_removed": 125,
-  "processing_time": 485.3
+  "documents_processed": 435,
+  "chunks_created": 12709,
+  "entities_extracted": 35000+,
+  "unique_entities": 23641,
+  "relationships": 592823,
+  "database_size": "66MB compressed"
 }
 ```
 

@@ -1,49 +1,67 @@
 # Knowledge Test Agent
 
-This folder contains the test suite for the Graph RAG knowledge system, filtered to only include test cases for publicly available documents.
+Automated testing framework for evaluating the accuracy and performance of the GraphRAG knowledge system with multiple search methods and reranking capabilities.
 
 ## Contents
 
-- `test.csv` - The filtered test set with 80 test questions (original had 90)
-- `test_original.csv` - Backup of the original test set for reference
-- `filter_summary.txt` - Summary of which test cases were removed and why
+- `enhanced_test_runner.py` - Main test runner with multiple search methods
+- `test_cases.csv` - MVP test set with 26 questions
+- `test.csv` - Full test set with 80 questions
+- `mvp_test_cases.csv` - Subset for quick testing
+- Test results saved to `/data/test_results/`
 
 ## Test Set Overview
 
-The test set covers questions about financial products from publicly available PDFs, including:
-- Foreign Exchange (FX) products
-- Interest rate products
-- Term deposits
-- Various financial instruments
+The test framework evaluates different search methods:
+- **Vector Search**: Semantic similarity using embeddings
+- **Graph Search**: Entity-based graph traversal
+- **Hybrid Search**: Weighted combination of methods
+- **Text2Cypher**: Natural language to graph queries
+- **Cross-encoder Reranking**: BERT-based result reranking
 
-## Removed Test Cases
+Current accuracy (MVP test set):
+- Vector + Reranking: 73.8%
+- Hybrid + Reranking: 69.2%
+- Text2Cypher: 66.2%
 
-10 test cases were removed because they reference PDFs that could not be verified as publicly available:
+## Running Tests
 
-1. **WBC Fixed Rate BBBL 0225.pdf** (6 questions removed)
-   - What is a fixed rate bank bill business loan?
-   - What is a FRR-BBBL?
-   - What are the benefits of a FRR-BBBL to cover interest rate risk?
-   - What are the break costs of a FRR-BBBL?
-   - Customer onboarding question for FR BBBL
-   - What is the minimum and maximum term for a FR-BBBL?
+```bash
+# Run with vector search and reranking
+python enhanced_test_runner.py --search-type vector --rerank
 
-2. **WBC_Rebate_PIS_0225.pdf** (2 questions removed)
-   - What are the risks of entering a RFR-BBBL?
-   - What is a RFR-BBBL?
+# Run with hybrid search
+python enhanced_test_runner.py --search-type hybrid --rerank
 
-3. **WBC Forward Start Security Agreement 0824** (2 questions removed)
-   - When is the customer required to enter into a Forward Start Security Agreement?
-   - What is the purpose of a forward start security agreement?
+# Run text2cypher tests
+python enhanced_test_runner.py --search-type text2cypher
 
-## Using the Test Set
+# Test all search methods
+python enhanced_test_runner.py --all
 
-This filtered test set ensures all test questions reference only publicly available documents that have been verified and included in the `mvp_inventory.json`.
+# Specify custom test file
+python enhanced_test_runner.py --test-file mvp_test_cases.csv --search-type hybrid
+```
 
-The test cases can be used to:
-- Evaluate the accuracy of the Graph RAG system
-- Benchmark different retrieval and answer generation approaches
-- Validate that the system correctly retrieves information from the knowledge base
+## Test Features
+
+### Document Name Normalization
+- Automatically strips .pdf extensions for comparison
+- Handles case-insensitive matching
+- Resolves 86.2% validation issue from extension mismatches
+
+### Evaluation Metrics
+- **Valid Tests**: Document exists in knowledge base
+- **Invalid Tests**: Referenced document not found
+- **Accurate Results**: Correct document retrieved
+- **Partial Match**: Some relevant content found
+- **Query Time**: Average response time per query
+
+### Result Output
+- CSV report with detailed results
+- Markdown summary with statistics
+- Per-question accuracy tracking
+- Failed test analysis
 
 ## Test Format
 
@@ -58,3 +76,16 @@ The CSV file contains the following columns:
 - `Question` - The test question
 - `Acceptable answer` - Expected answer or key points
 - `Document Reference` - Additional reference information
+
+## Configuration
+
+```bash
+# Environment variables
+API_BASE_URL=http://localhost:8000
+NEO4J_PASSWORD=knowledge123
+
+# Test parameters
+--top-k 5        # Number of results to retrieve
+--workers 4      # Parallel test execution
+--debug          # Enable debug logging
+```
