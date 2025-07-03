@@ -14,9 +14,10 @@ This is a production-ready GraphRAG (Graph Retrieval Augmented Generation) syste
 
 **Current State**:
 - 73.8% accuracy with vector search + reranking
-- All 428 documents successfully ingested with full-text chunks
+- 355 documents successfully ingested (excludes 5 scanned PDFs without text)
 - Complete citation support (document name, page number, chunk ID)
 - Backup/restore functionality validated with 66MB compressed exports
+- Exclusion system for problematic documents (see data/exclusion_config.json)
 
 ## Common Development Commands
 
@@ -73,7 +74,7 @@ python monitor_ingestion.py
 
 ### Graph Schema
 ```cypher
-// Core nodes
+// Core nodes (355 total documents, all with chunks)
 (:Document {id, filename, path, total_pages, chunk_count, category})
 (:Chunk {id, text, page_num, chunk_index, embedding[384], semantic_density, chunk_type})
 (:Entity {text, type, first_seen, occurrences})

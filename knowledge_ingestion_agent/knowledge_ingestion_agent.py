@@ -126,7 +126,8 @@ class KnowledgeIngestionAgent:
                  chunk_size: int = 512,
                  chunk_overlap: int = 100,
                  batch_size: int = 32,
-                 num_workers: int = 4):
+                 num_workers: int = 4,
+                 exclusion_config_path: str = None):
         """Initialize the ingestion agent"""
         
         self.neo4j_uri = neo4j_uri
@@ -136,6 +137,9 @@ class KnowledgeIngestionAgent:
         self.chunk_overlap = chunk_overlap
         self.batch_size = batch_size
         self.num_workers = num_workers
+        
+        # Load exclusion configuration
+        self.exclusions = self._load_exclusions(exclusion_config_path)
         
         # Initialize models
         logger.info("Loading models...")
@@ -181,14 +185,45 @@ class KnowledgeIngestionAgent:
         ruler.add_patterns(patterns)
         return nlp
     
+    def _load_exclusions(self, config_path: str = None) -> Dict[str, Any]:
+        """Load exclusion configuration"""
+        default_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'exclusion_config.json')
+        config_path = config_path or default_path
+        
+        if os.path.exists(config_path):
+            logger.info(f"Loading exclusion config from {config_path}")
+            with open(config_path, 'r') as f:
+                return json.load(f)
+        else:
+            logger.info("No exclusion config found, proceeding without exclusions")
+            return {"exclusions": {"files": [], "patterns": []}}
+    
+    def _is_excluded(self, filename: str) -> Tuple[bool, str]:
+        """Check if a file should be excluded from ingestion"""
+        # Check exact filename matches
+        for exclusion in self.exclusions.get('exclusions', {}).get('files', []):
+            if exclusion['filename'] == filename:
+                return True, exclusion.get('reason', 'Excluded by configuration')
+        
+        # Check pattern matches
+        import re
+        for pattern_config in self.exclusions.get('exclusions', {}).get('patterns', []):
+            if pattern_config.get('regex', False):
+                pattern = pattern_config['pattern']
+                if re.match(pattern, filename):
+                    return True, pattern_config.get('reason', 'Excluded by pattern match')
+        
+        return False, ""
+    
     def extract_pdf_content(self, pdf_path: str) -> List[Dict[str, Any]]:
-        """Extract content from PDF using PyMuPDF"""
+        """Extract content from PDF using PyMuPDF with OCR fallback"""
         logger.info(f"Extracting content from {pdf_path}")
         
         pages_content = []
         
         try:
             pdf_document = fitz.open(pdf_path)
+            total_text_length = 0
             
             for page_num, page in enumerate(pdf_document):
                 # Extract text blocks with position information
@@ -208,14 +243,67 @@ class KnowledgeIngestionAgent:
                     'table_blocks': table_blocks,
                     'char_count': len(page_text)
                 })
+                
+                total_text_length += len(page_text.strip())
             
             pdf_document.close()
+            
+            # Check if PDF has no extractable text (likely scanned)
+            if total_text_length < 100:  # Less than 100 chars total
+                logger.info(f"PDF appears to be scanned or has minimal text. Attempting OCR...")
+                ocr_content = self._extract_pdf_with_ocr(pdf_path)
+                if ocr_content:
+                    pages_content = ocr_content
             
         except Exception as e:
             logger.error(f"Error extracting PDF content: {e}")
             raise
         
         return pages_content
+    
+    def _extract_pdf_with_ocr(self, pdf_path: str) -> List[Dict[str, Any]]:
+        """Extract text from PDF using OCR"""
+        try:
+            import pytesseract
+            from pdf2image import convert_from_path
+            from PIL import Image
+            
+            logger.info("Performing OCR on PDF pages...")
+            pages_content = []
+            
+            # Convert PDF to images
+            images = convert_from_path(pdf_path, dpi=300)
+            
+            for page_num, image in enumerate(images):
+                # Perform OCR on the image
+                ocr_text = pytesseract.image_to_string(image, lang='eng')
+                
+                # Clean up the text
+                ocr_text = ocr_text.strip()
+                
+                if ocr_text:
+                    logger.info(f"OCR extracted {len(ocr_text)} characters from page {page_num + 1}")
+                    pages_content.append({
+                        'page_num': page_num + 1,
+                        'text': ocr_text,
+                        'blocks': [],  # No block info from OCR
+                        'has_table': False,
+                        'table_blocks': [],
+                        'char_count': len(ocr_text),
+                        'ocr_extracted': True
+                    })
+                else:
+                    logger.warning(f"No text extracted from page {page_num + 1}")
+            
+            return pages_content if pages_content else None
+            
+        except ImportError as e:
+            logger.error(f"OCR dependencies not installed: {e}")
+            logger.info("Install with: pip install pytesseract pdf2image")
+            return None
+        except Exception as e:
+            logger.error(f"OCR extraction failed: {e}")
+            return None
     
     def _detect_tables(self, blocks: List) -> List[Dict]:
         """Simple table detection based on block positioning"""
@@ -597,13 +685,26 @@ class KnowledgeIngestionAgent:
         return unique_chunks
     
     def build_graph(self, chunks: List[ProcessedChunk], document_metadata: Dict[str, Any]):
-        """Build Neo4j graph from processed chunks"""
+        """Build Neo4j graph from processed chunks with validation"""
         logger.info("Building knowledge graph...")
         
         from neo4j import GraphDatabase
+        try:
+            from .ingestion_validator import IngestionValidator
+            use_validator = True
+        except ImportError:
+            # Fallback if running as script
+            try:
+                from ingestion_validator import IngestionValidator
+                use_validator = True
+            except ImportError:
+                use_validator = False
+                logger.warning("Ingestion validator not available, proceeding without validation")
         
         driver = GraphDatabase.driver(self.neo4j_uri, 
                                     auth=(self.neo4j_user, self.neo4j_password))
+        
+        validator = IngestionValidator(driver) if use_validator else None
         
         try:
             with driver.session() as session:
@@ -728,6 +829,14 @@ class KnowledgeIngestionAgent:
                 session.run("CREATE INDEX IF NOT EXISTS FOR (e:Entity) ON (e.type)")
                 session.run("CREATE INDEX IF NOT EXISTS FOR (d:Document) ON (d.id)")
                 
+                # Update document chunk count
+                session.run("""
+                    MATCH (d:Document {id: $doc_id})
+                    OPTIONAL MATCH (d)-[:HAS_CHUNK]->(c:Chunk)
+                    WITH d, count(c) as chunk_count
+                    SET d.chunk_count = chunk_count
+                """, doc_id=doc_id)
+                
                 # Create vector index for similarity search
                 session.run("""
                     CREATE VECTOR INDEX `chunk-embeddings` IF NOT EXISTS
@@ -739,6 +848,22 @@ class KnowledgeIngestionAgent:
                 """)
                 
                 logger.info("Graph construction completed")
+                
+                # Validate the ingestion completeness if validator available
+                if validator:
+                    validation_result = validator.validate_document_completeness(
+                        doc_id, 
+                        [], # We don't have pages_content here, but chunks have the info
+                        chunks
+                    )
+                    
+                    validator.log_validation_result(validation_result)
+                    
+                    # If validation fails, rollback
+                    if validation_result['status'] in ['incomplete', 'critical']:
+                        logger.error(f"Validation failed for {doc_id}: {validation_result['issues']}")
+                        validator.rollback_incomplete_document(doc_id)
+                        raise ValueError(f"Document {doc_id} failed validation and was rolled back")
                 
         finally:
             driver.close()
@@ -854,7 +979,18 @@ class KnowledgeIngestionAgent:
     def process_single_pdf(self, pdf_path: str, metadata: Dict[str, Any]) -> Dict[str, Any]:
         """Process a single PDF file"""
         try:
-            document_id = metadata.get('filename', '').replace('.pdf', '')
+            filename = metadata.get('filename', '')
+            document_id = filename.replace('.pdf', '')
+            
+            # Check if file is excluded
+            is_excluded, reason = self._is_excluded(filename)
+            if is_excluded:
+                logger.info(f"Skipping excluded file: {filename} - {reason}")
+                return {
+                    'status': 'skipped',
+                    'document_id': document_id,
+                    'reason': reason
+                }
             
             # Extract content
             pages_content = self.extract_pdf_content(pdf_path)
@@ -892,6 +1028,24 @@ class KnowledgeIngestionAgent:
             
         except Exception as e:
             logger.error(f"Error processing {pdf_path}: {e}")
+            
+            # Log error for recovery
+            from neo4j import GraphDatabase
+            from .ingestion_validator import IngestionValidator
+            
+            driver = GraphDatabase.driver(self.neo4j_uri, 
+                                        auth=(self.neo4j_user, self.neo4j_password))
+            validator = IngestionValidator(driver) if use_validator else None
+            
+            validator.log_ingestion_error(
+                document_id=metadata.get('filename', ''),
+                error=e,
+                metadata=metadata,
+                recovery_action='reingest'
+            )
+            
+            driver.close()
+            
             return {
                 'status': 'error',
                 'document_id': metadata.get('filename'),

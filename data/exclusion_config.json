@@ -1,0 +1,38 @@
+{
+  "exclusions": {
+    "files": [
+      {
+        "filename": "SDLAustraliaSupplementSigned.pdf",
+        "reason": "Scanned legal document without extractable text",
+        "excluded_date": "2025-07-03"
+      },
+      {
+        "filename": "SDLHongKongSupplementSigned.pdf",
+        "reason": "Scanned legal document without extractable text",
+        "excluded_date": "2025-07-03"
+      },
+      {
+        "filename": "SDLLetterSigned.pdf",
+        "reason": "Scanned legal document without extractable text",
+        "excluded_date": "2025-07-03"
+      },
+      {
+        "filename": "SDLSingaporeSupplementSigned.pdf",
+        "reason": "Scanned legal document without extractable text",
+        "excluded_date": "2025-07-03"
+      },
+      {
+        "filename": "acceptable-visas.pdf",
+        "reason": "Scanned document without extractable text",
+        "excluded_date": "2025-07-03"
+      }
+    ],
+    "patterns": [
+      {
+        "pattern": "SDL.*Signed\\.pdf",
+        "reason": "SDL signed documents are typically scanned without text layers",
+        "regex": true
+      }
+    ]
+  }
+}
