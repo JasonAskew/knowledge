@@ -1,0 +1,1757 @@
+[
+  {
+    "document_id": "FSR_LandlordInsPDS",
+    "timestamp": "2025-07-03T11:48:54.773549",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 75,
+      "pages_covered": 73,
+      "total_text_length": 117964,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_LandlordInsPDS",
+    "timestamp": "2025-07-03T12:13:22.519276",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 75,
+      "pages_covered": 73,
+      "total_text_length": 117964,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Tier-2-Capital-Instruments-2024",
+    "timestamp": "2025-07-03T12:14:19.053021",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 4410,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-DualCurrencyInvestmentPIS",
+    "timestamp": "2025-07-03T12:14:48.942063",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 14,
+      "pages_covered": 9,
+      "total_text_length": 32648,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "westpac-new-zealand-disclosure-statement-march-2023",
+    "timestamp": "2025-07-03T12:17:14.438838",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 65,
+      "pages_covered": 54,
+      "total_text_length": 139699,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T12:18:16.511796",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 34,
+      "pages_covered": 20,
+      "total_text_length": 77720,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T12:18:49.024311",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3106,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T12:19:32.690479",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 2999,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "bsa-callable-swap",
+    "timestamp": "2025-07-03T12:20:15.313569",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 14,
+      "total_text_length": 42999,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "sgb-callable-swap",
+    "timestamp": "2025-07-03T12:20:37.746844",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 4,
+      "pages_covered": 4,
+      "total_text_length": 3058,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wbc-callable-swap",
+    "timestamp": "2025-07-03T12:21:01.035831",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3173,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-FgnCurrencyAccountTC",
+    "timestamp": "2025-07-03T12:26:56.985766",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 19,
+      "pages_covered": 13,
+      "total_text_length": 45736,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_Sustainability_Report_2016",
+    "timestamp": "2025-07-03T12:38:53.694150",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 167,
+      "pages_covered": 111,
+      "total_text_length": 427429,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-ForeignExchangeOptionPDS",
+    "timestamp": "2025-07-03T12:39:36.658217",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 24,
+      "pages_covered": 15,
+      "total_text_length": 48911,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "International-Service-Fees-0811",
+    "timestamp": "2025-07-03T12:39:51.396760",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 11,
+      "pages_covered": 11,
+      "total_text_length": 12134,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WSNZL-Annual-Report-30-September-2024-F",
+    "timestamp": "2025-07-03T12:40:41.757959",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 30,
+      "pages_covered": 22,
+      "total_text_length": 69308,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2011_Annual_Review_and_Sustainability_Report",
+    "timestamp": "2025-07-03T12:42:39.061431",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 65,
+      "pages_covered": 44,
+      "total_text_length": 159515,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2021_Sustainability_Supplement",
+    "timestamp": "2025-07-03T12:44:14.967149",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 61,
+      "pages_covered": 42,
+      "total_text_length": 147822,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-RangeForwardPDS",
+    "timestamp": "2025-07-03T12:44:57.998349",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 55664,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_2018_AGM_CEO_address_final_12_Dec",
+    "timestamp": "2025-07-03T12:45:08.336605",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 7,
+      "pages_covered": 7,
+      "total_text_length": 14005,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_Group_2019_Sustainability_Performance_Report",
+    "timestamp": "2025-07-03T12:49:49.488542",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 164,
+      "pages_covered": 122,
+      "total_text_length": 400130,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-FXSwapPDS",
+    "timestamp": "2025-07-03T12:50:37.009535",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 25,
+      "pages_covered": 15,
+      "total_text_length": 55677,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "stg_personal_loan_fees_charges",
+    "timestamp": "2025-07-03T12:50:41.962318",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 8,
+      "pages_covered": 8,
+      "total_text_length": 4562,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-Knock-OutSmartForwardContractPIS",
+    "timestamp": "2025-07-03T12:51:16.139185",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 15,
+      "total_text_length": 49285,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-RangeForwardPDS",
+    "timestamp": "2025-07-03T12:51:57.184496",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 55406,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "fees_wbc",
+    "timestamp": "2025-07-03T12:52:03.439136",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 2,
+      "total_text_length": 6098,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB_Rebate_PIS_0523",
+    "timestamp": "2025-07-03T12:52:26.237498",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 14,
+      "pages_covered": 10,
+      "total_text_length": 28511,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "USTLD_ProductInformationStatement_SGB",
+    "timestamp": "2025-07-03T12:53:01.351583",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 14,
+      "total_text_length": 49464,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_ASX_1H21",
+    "timestamp": "2025-07-03T13:01:19.022999",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 223,
+      "pages_covered": 149,
+      "total_text_length": 532997,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-FXSwapPDS",
+    "timestamp": "2025-07-03T13:02:13.267807",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 26,
+      "pages_covered": 16,
+      "total_text_length": 52541,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-ForeignExchangeOptionPDS",
+    "timestamp": "2025-07-03T13:02:59.610934",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 27,
+      "pages_covered": 17,
+      "total_text_length": 53332,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_Sustainability_Report_2016",
+    "timestamp": "2025-07-03T13:10:34.666298",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 167,
+      "pages_covered": 111,
+      "total_text_length": 427429,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-ForeignExchangeOptionPDS",
+    "timestamp": "2025-07-03T13:11:22.267812",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 24,
+      "pages_covered": 15,
+      "total_text_length": 48911,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "International-Service-Fees-0811",
+    "timestamp": "2025-07-03T13:11:39.886929",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 11,
+      "pages_covered": 11,
+      "total_text_length": 12134,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WSNZL-Annual-Report-30-September-2024-F",
+    "timestamp": "2025-07-03T13:12:51.687545",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 30,
+      "pages_covered": 22,
+      "total_text_length": 69308,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2011_Annual_Review_and_Sustainability_Report",
+    "timestamp": "2025-07-03T13:15:13.185237",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 65,
+      "pages_covered": 44,
+      "total_text_length": 159515,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2021_Sustainability_Supplement",
+    "timestamp": "2025-07-03T13:17:15.287591",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 61,
+      "pages_covered": 42,
+      "total_text_length": 147822,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-RangeForwardPDS",
+    "timestamp": "2025-07-03T13:18:03.546248",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 55664,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_2018_AGM_CEO_address_final_12_Dec",
+    "timestamp": "2025-07-03T13:18:17.661542",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 7,
+      "pages_covered": 7,
+      "total_text_length": 14005,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_Group_2019_Sustainability_Performance_Report",
+    "timestamp": "2025-07-03T13:23:53.600967",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 164,
+      "pages_covered": 122,
+      "total_text_length": 400130,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-FXSwapPDS",
+    "timestamp": "2025-07-03T13:24:38.718108",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 25,
+      "pages_covered": 15,
+      "total_text_length": 55677,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "stg_personal_loan_fees_charges",
+    "timestamp": "2025-07-03T13:24:43.916170",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 8,
+      "pages_covered": 8,
+      "total_text_length": 4562,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-Knock-OutSmartForwardContractPIS",
+    "timestamp": "2025-07-03T13:25:17.561451",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 15,
+      "total_text_length": 49285,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-RangeForwardPDS",
+    "timestamp": "2025-07-03T13:25:56.482339",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 55406,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "fees_wbc",
+    "timestamp": "2025-07-03T13:26:01.477260",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 2,
+      "total_text_length": 6098,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB_Rebate_PIS_0523",
+    "timestamp": "2025-07-03T13:26:26.322640",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 14,
+      "pages_covered": 10,
+      "total_text_length": 28511,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "USTLD_ProductInformationStatement_SGB",
+    "timestamp": "2025-07-03T13:27:02.010073",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 14,
+      "total_text_length": 49464,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_ASX_1H21",
+    "timestamp": "2025-07-03T13:36:20.634821",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 223,
+      "pages_covered": 149,
+      "total_text_length": 532997,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-FXSwapPDS",
+    "timestamp": "2025-07-03T13:37:15.814597",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 26,
+      "pages_covered": 16,
+      "total_text_length": 52541,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-ForeignExchangeOptionPDS",
+    "timestamp": "2025-07-03T13:38:08.683737",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 27,
+      "pages_covered": 17,
+      "total_text_length": 53332,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-FXTransactionPDS",
+    "timestamp": "2025-07-03T13:39:24.038032",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 37,
+      "pages_covered": 23,
+      "total_text_length": 84251,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wbc-climate-report-2024",
+    "timestamp": "2025-07-03T13:43:04.063338",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 113,
+      "pages_covered": 69,
+      "total_text_length": 266236,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-RangeForwardPDS",
+    "timestamp": "2025-07-03T13:43:50.102161",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 56607,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-FXTransactionPDS",
+    "timestamp": "2025-07-03T13:44:54.702243",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 37,
+      "pages_covered": 23,
+      "total_text_length": 81527,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_Online_Investment_Loan_PDS",
+    "timestamp": "2025-07-03T13:45:15.072523",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 8,
+      "pages_covered": 4,
+      "total_text_length": 18902,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "stg-interest-rate-cap-floors-collars_pis",
+    "timestamp": "2025-07-03T13:46:11.065620",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 26,
+      "pages_covered": 15,
+      "total_text_length": 54128,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T13:47:14.265567",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 34,
+      "pages_covered": 20,
+      "total_text_length": 77728,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-BonusForwardContractPIS",
+    "timestamp": "2025-07-03T13:47:46.270021",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 15,
+      "total_text_length": 43387,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-FlexiForwardPDS",
+    "timestamp": "2025-07-03T13:48:19.615809",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 14,
+      "total_text_length": 41192,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_WestpacGeneralFSG",
+    "timestamp": "2025-07-03T13:48:39.119229",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 15,
+      "pages_covered": 15,
+      "total_text_length": 21975,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-WindowSmartForwardContractPIS",
+    "timestamp": "2025-07-03T13:49:18.138552",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 16,
+      "total_text_length": 51550,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_ProtectionPlansPDS",
+    "timestamp": "2025-07-03T13:54:52.403122",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 183,
+      "pages_covered": 108,
+      "total_text_length": 413643,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_HomeContentInsPDS",
+    "timestamp": "2025-07-03T13:56:44.952355",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 79,
+      "pages_covered": 78,
+      "total_text_length": 127696,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-InterestRateSwapPIS",
+    "timestamp": "2025-07-03T13:57:32.653338",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 14,
+      "total_text_length": 42325,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-WindowSmartForwardContractPIS",
+    "timestamp": "2025-07-03T13:58:23.664232",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 15,
+      "total_text_length": 53661,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_Rebate_PIS_0523",
+    "timestamp": "2025-07-03T13:58:41.996998",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3318,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "bsa-interest-rate-cap-floors-collars_pis",
+    "timestamp": "2025-07-03T13:59:16.228454",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3158,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-ForeignExchangeOptionPDS",
+    "timestamp": "2025-07-03T14:00:07.074870",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 14,
+      "total_text_length": 52296,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-FlexiForwardPDS",
+    "timestamp": "2025-07-03T14:00:48.304234",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 13,
+      "total_text_length": 44902,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wibe030_eto_pds",
+    "timestamp": "2025-07-03T14:03:07.459702",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 58,
+      "pages_covered": 34,
+      "total_text_length": 127445,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "l749_pershingllc_financialservicesguide",
+    "timestamp": "2025-07-03T14:03:16.614923",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 6,
+      "pages_covered": 2,
+      "total_text_length": 15664,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-BonusForwardContractPIS",
+    "timestamp": "2025-07-03T14:03:47.351275",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 20,
+      "pages_covered": 14,
+      "total_text_length": 43994,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-DualCurrencyInvestmentPIS",
+    "timestamp": "2025-07-03T14:04:11.794098",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 14,
+      "pages_covered": 9,
+      "total_text_length": 32687,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_Range_PIS_0523",
+    "timestamp": "2025-07-03T14:04:35.482371",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 15,
+      "pages_covered": 11,
+      "total_text_length": 27647,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Tier-2-Capital-Instruments-2024",
+    "timestamp": "2025-07-03T14:05:22.177468",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 4410,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Climate_Change_Position_Statement_and_Action_Plan",
+    "timestamp": "2025-07-03T14:05:56.438273",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 26,
+      "pages_covered": 19,
+      "total_text_length": 62505,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-InterestRateSwapPIS",
+    "timestamp": "2025-07-03T14:06:18.072847",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3088,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_2021-2023_Sustainability_Strategy",
+    "timestamp": "2025-07-03T14:06:26.566186",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 8,
+      "pages_covered": 8,
+      "total_text_length": 14216,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-BonusForwardContractPIS",
+    "timestamp": "2025-07-03T14:06:55.947352",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 20,
+      "pages_covered": 14,
+      "total_text_length": 45898,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-InterestRateSwapPIS",
+    "timestamp": "2025-07-03T14:07:15.343603",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3123,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-foreigncurrencyaccountPDS",
+    "timestamp": "2025-07-03T14:07:57.106289",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 33,
+      "pages_covered": 23,
+      "total_text_length": 76569,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-DualCurrencyInvestmentPIS",
+    "timestamp": "2025-07-03T14:08:11.170913",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3289,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "worldwide-wallet-PDS",
+    "timestamp": "2025-07-03T14:09:06.450952",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 47,
+      "pages_covered": 46,
+      "total_text_length": 88396,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA_Rebate_PIS_0523",
+    "timestamp": "2025-07-03T14:09:19.718648",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3415,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2003_Concise_Annual_Report_1",
+    "timestamp": "2025-07-03T14:12:22.061430",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 112,
+      "pages_covered": 76,
+      "total_text_length": 255933,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-Knock-OutSmartForwardContractPIS",
+    "timestamp": "2025-07-03T14:12:52.640783",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 15,
+      "total_text_length": 46010,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM-USTLDProductInformationStatement",
+    "timestamp": "2025-07-03T14:13:14.830615",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3858,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "stg-fsg",
+    "timestamp": "2025-07-03T14:13:33.705355",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 19,
+      "pages_covered": 19,
+      "total_text_length": 22922,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T14:14:08.834617",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 2999,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM_Range_PIS_0523",
+    "timestamp": "2025-07-03T14:14:33.790157",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 14,
+      "pages_covered": 10,
+      "total_text_length": 27703,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2022_Sustainability_Supplement",
+    "timestamp": "2025-07-03T14:15:12.688805",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 31,
+      "pages_covered": 23,
+      "total_text_length": 63961,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wbc-callable-swap",
+    "timestamp": "2025-07-03T14:15:49.737807",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 12,
+      "total_text_length": 43022,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-Knock-OutSmartForwardContractPIS",
+    "timestamp": "2025-07-03T14:16:24.391627",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 23,
+      "pages_covered": 15,
+      "total_text_length": 49657,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "MS_Fees_Charges_Brochure",
+    "timestamp": "2025-07-03T14:16:45.207566",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 15,
+      "pages_covered": 15,
+      "total_text_length": 16800,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-WindowSmartForwardContractPIS",
+    "timestamp": "2025-07-03T14:17:24.836796",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 15,
+      "total_text_length": 51954,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_LandlordInsPDS",
+    "timestamp": "2025-07-03T14:18:39.694562",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 74,
+      "pages_covered": 72,
+      "total_text_length": 116524,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "bsa-callable-swap",
+    "timestamp": "2025-07-03T14:18:58.797649",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3052,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC_2020_sustainability_appendix",
+    "timestamp": "2025-07-03T14:19:58.968889",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 46,
+      "pages_covered": 44,
+      "total_text_length": 93299,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "sgb-callable-swap",
+    "timestamp": "2025-07-03T14:20:18.204808",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3056,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-ResetForwardContractPIS",
+    "timestamp": "2025-07-03T14:20:48.989957",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 15,
+      "total_text_length": 47846,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-FlexiForwardPDS",
+    "timestamp": "2025-07-03T14:21:22.311817",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 21,
+      "pages_covered": 13,
+      "total_text_length": 44108,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BOM_Rebate_PIS_0523",
+    "timestamp": "2025-07-03T14:21:36.059048",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3469,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wbc-interest-rate-cap-floors-collars_pis",
+    "timestamp": "2025-07-03T14:21:58.637068",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3049,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-DualCurrencyInvestmentPIS",
+    "timestamp": "2025-07-03T14:22:12.862130",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3380,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "westpac-new-zealand-disclosure-statement-march-2023",
+    "timestamp": "2025-07-03T14:24:32.186007",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 65,
+      "pages_covered": 54,
+      "total_text_length": 139699,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "FSR_DirectEntryPDS",
+    "timestamp": "2025-07-03T14:25:13.979965",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 28,
+      "pages_covered": 19,
+      "total_text_length": 53429,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA-TLDProductInformationStatement",
+    "timestamp": "2025-07-03T14:25:51.239537",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 3,
+      "pages_covered": 3,
+      "total_text_length": 3098,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "car-insurance-pds",
+    "timestamp": "2025-07-03T14:26:56.466151",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 70,
+      "pages_covered": 70,
+      "total_text_length": 86634,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-ResetFowardContractPIS",
+    "timestamp": "2025-07-03T14:27:28.838901",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 22,
+      "pages_covered": 15,
+      "total_text_length": 48374,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2023-annual-report-on-form-20-F",
+    "timestamp": "2025-07-03T14:43:01.013363",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 507,
+      "pages_covered": 363,
+      "total_text_length": 1201463,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "WBC-TargetForwardContractPIS",
+    "timestamp": "2025-07-03T14:43:45.375575",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 24,
+      "pages_covered": 15,
+      "total_text_length": 52556,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "Westpac_ESG_update_21_Sept_2021",
+    "timestamp": "2025-07-03T14:44:32.723499",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 25,
+      "pages_covered": 25,
+      "total_text_length": 25354,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "wbc-2023-climate-report",
+    "timestamp": "2025-07-03T14:49:38.037213",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 164,
+      "pages_covered": 116,
+      "total_text_length": 386458,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "2020_Climate_Active_Audit_Report",
+    "timestamp": "2025-07-03T14:49:44.095182",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 5,
+      "pages_covered": 5,
+      "total_text_length": 11249,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "SGB-EnhancedForwardContractPIS",
+    "timestamp": "2025-07-03T14:50:23.309168",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 20,
+      "pages_covered": 14,
+      "total_text_length": 41836,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "BSA_Range_PIS_0523",
+    "timestamp": "2025-07-03T14:50:59.690332",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 15,
+      "pages_covered": 10,
+      "total_text_length": 29980,
+      "avg_chars_per_page": 0
+    }
+  },
+  {
+    "document_id": "stg-cc-fee-charges",
+    "timestamp": "2025-07-03T14:51:08.058396",
+    "status": "valid",
+    "issues": [],
+    "metrics": {
+      "chunk_ratio": 0,
+      "total_pages": 0,
+      "pages_with_content": 0,
+      "total_chunks": 8,
+      "pages_covered": 8,
+      "total_text_length": 4049,
+      "avg_chars_per_page": 0
+    }
+  }
+]

@@ -69,6 +69,7 @@ temp/
 *.temp
 
 # Local configuration
+.env
 .env.local
 .env.*.local
 
@@ -96,3 +97,36 @@ data/mvp_documents/
 knowledge_discovery_agent/westpac_pdfs/
 knowledge_discovery_agent/orphaned_pdfs/
 knowledge_discovery_agent/downloaded_pdfs/
+
+# Temporary analysis scripts
+analyze_missing_documents.py
+identify_incomplete_documents.py
+ingest_missing_documents.py
+reingest_*.py
+test_ocr_extraction.py
+test_single_reingest.py
+export_database_now.py
+restore_from_backup.py
+monitor_ingestion_progress.py
+wait_and_reingest.sh
+
+# Temporary data files
+full_westpac_inventory*.json
+page4_content.csv
+remaining_uncommitted.txt
+data/reingest_inventory.json
+data/missing_documents_*.json
+data/incomplete_documents_report.json
+data/exclusion_inventory.txt
+
+# Investigation files
+missing_chunks_investigation.md
+sgb_ingestion_analysis.md
+uncommitted_files_report.md
+chunk_fix_report.md
+
+# Archives
+mcp_server/archive/
+
+# Timestamped backups (keep only latest)
+data/backups/neo4j_export_20*.json.gz
