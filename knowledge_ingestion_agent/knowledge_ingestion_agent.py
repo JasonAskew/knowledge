@@ -22,6 +22,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import re
 from collections import defaultdict
 import time
+from .hierarchical_classifier import HierarchicalDocumentClassifier
 
 # Configure logging
 logging.basicConfig(
@@ -145,6 +146,9 @@ class KnowledgeIngestionAgent:
         logger.info("Loading models...")
         self.nlp = self._load_spacy_model()
         self.embedder = SentenceTransformer('BAAI/bge-small-en-v1.5')
+        
+        # Initialize hierarchical classifier
+        self.hierarchical_classifier = HierarchicalDocumentClassifier()
         
         # Initialize deduplication components
         self.entity_cache = {}
@@ -719,21 +723,57 @@ class KnowledgeIngestionAgent:
                     DETACH DELETE c
                 """, doc_id=doc_id)
                 
-                # Now create the document node
+                # Classify document into hierarchy
+                # Get document text from first few chunks for classification
+                document_text = ' '.join([chunk.text for chunk in chunks[:10]])[:5000]  # First 5000 chars
+                classification = self.hierarchical_classifier.classify_document(
+                    filename=document_metadata.get('filename', ''),
+                    content=document_text,
+                    metadata=document_metadata
+                )
+                
+                # Now create the document node with hierarchy
                 session.run("""
                     MERGE (d:Document {id: $doc_id})
                     SET d.filename = $filename,
                         d.path = $path,
                         d.total_pages = $total_pages,
                         d.processed_date = $processed_date,
-                        d.category = $category
+                        d.category = $category,
+                        d.institution = $institution,
+                        d.division = $division,
+                        d.division_code = $division_code,
+                        d.category_hierarchy = $category_hierarchy,
+                        d.product_scope = $product_scope,
+                        d.hierarchy_confidence = $hierarchy_confidence
+                    
+                    // Create relationships to hierarchy nodes
+                    WITH d
+                    MATCH (div:Division {code: $division_code})
+                    MERGE (d)-[:BELONGS_TO_DIVISION]->(div)
+                    
+                    WITH d
+                    MATCH (cat:Category {name: $category_hierarchy, division: $division_code})
+                    MERGE (d)-[:COVERS_CATEGORY]->(cat)
+                    
+                    // Link to relevant products
+                    WITH d
+                    UNWIND $product_scope as product_name
+                    MATCH (p:Product {name: product_name, category: $category_hierarchy})
+                    MERGE (d)-[:COVERS_PRODUCT]->(p)
                 """, 
                 doc_id=doc_id,
                 filename=document_metadata.get('filename'),
                 path=document_metadata.get('path'),
                 total_pages=document_metadata.get('total_pages'),
                 processed_date=datetime.now().isoformat(),
-                category=document_metadata.get('category', 'misc'))
+                category=document_metadata.get('category', 'misc'),
+                institution=classification.institution,
+                division=classification.division,
+                division_code=classification.division_code,
+                category_hierarchy=classification.category,
+                product_scope=classification.products,
+                hierarchy_confidence=classification.confidence)
                 
                 # Process chunks in batches
                 for i in range(0, len(chunks), 10):
@@ -753,7 +793,9 @@ class KnowledgeIngestionAgent:
                                 has_definitions: $has_definitions,
                                 has_examples: $has_examples,
                                 chunk_type: $chunk_type,
-                                keywords: $keywords
+                                keywords: $keywords,
+                                division: $division,
+                                category_hierarchy: $category_hierarchy
                             })
                         """,
                         chunk_id=chunk.metadata.chunk_id,
@@ -766,7 +808,9 @@ class KnowledgeIngestionAgent:
                         has_definitions=chunk.has_definitions,
                         has_examples=chunk.has_examples,
                         chunk_type=chunk.chunk_type,
-                        keywords=chunk.keywords)
+                        keywords=chunk.keywords,
+                        division=classification.division,
+                        category_hierarchy=classification.category)
                         
                         # Create document-chunk relationship
                         session.run("""
