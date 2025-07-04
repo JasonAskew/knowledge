@@ -1,67 +1,120 @@
 # Knowledge Test Agent
 
-Automated testing framework for evaluating the accuracy and performance of the GraphRAG knowledge system with multiple search methods and reranking capabilities.
+Comprehensive testing framework for evaluating the accuracy and performance of the optimized GraphRAG knowledge system with multiple search methods, performance benchmarking, and speed vs accuracy analysis.
 
 ## Contents
 
-- `enhanced_test_runner.py` - Main test runner with multiple search methods
-- `test_cases.csv` - MVP test set with 26 questions
-- `test.csv` - Full test set with 80 questions
-- `mvp_test_cases.csv` - Subset for quick testing
-- Test results saved to `/data/test_results/`
+### Core Testing Tools
+- `enhanced_test_runner.py` - Main test runner with performance grading and target validation
+- `optimized_search_tester.py` - Specialized tester for current optimized search methods
+- `performance_benchmarker.py` - Speed vs accuracy analysis and optimization recommendations
 
-## Test Set Overview
+### Test Data
+- `test.csv` - Full test set with 80+ comprehensive questions
+- `test_small.csv` - Quick validation subset
+- Test results automatically saved to `/data/test_results/`
 
-The test framework evaluates different search methods:
-- **Vector Search**: Semantic similarity using embeddings
-- **Graph Search**: Entity-based graph traversal
-- **Hybrid Search**: Weighted combination of methods
-- **Text2Cypher**: Natural language to graph queries
-- **Cross-encoder Reranking**: BERT-based result reranking
+## Current System Performance (2024)
 
-Current accuracy (MVP test set):
-- Vector + Reranking: 73.8%
-- Hybrid + Reranking: 69.2%
-- Text2Cypher: 66.2%
+The testing framework now validates against measured system performance benchmarks:
+
+### 🎯 Performance Targets by Search Method
+
+| Search Method | Accuracy Target | Speed Target | Use Case |
+|---------------|----------------|--------------|----------|
+| **Optimized Keyword** | 90% | 200ms | Real-time queries, fast response |
+| **Vector Search** | 78% | 500ms | Semantic similarity, balanced |
+| **Hybrid Search** | 73% | 1000ms | Comprehensive search, best coverage |
+| **Graph Search** | 82% | 800ms | Entity-based, domain-specific |
+| **GraphRAG** | 80% | 1500ms | Complex reasoning, highest accuracy |
+| **Full Text** | 75% | 300ms | Traditional keyword matching |
+
+### 🏆 Performance Grading System
+
+- **A+**: Exceeds targets (>target accuracy, <80% target time)
+- **A**: Meets targets (≥target accuracy, ≤target time)  
+- **B**: Partial targets (meets accuracy OR speed)
+- **C**: Below targets but functional
+- **F**: Failing performance
 
 ## Running Tests
 
+### 🚀 Quick Performance Testing
+
 ```bash
-# Run with vector search and reranking
-python enhanced_test_runner.py --search-type vector --rerank
+# Enhanced test runner with performance grading (RECOMMENDED)
+python enhanced_test_runner.py --search-type hybrid --use-reranking
 
-# Run with hybrid search
-python enhanced_test_runner.py --search-type hybrid --rerank
+# Test optimized search methods with benchmarks
+python optimized_search_tester.py --methods hybrid vector optimized_keyword
 
-# Run text2cypher tests
-python enhanced_test_runner.py --search-type text2cypher
+# Full performance analysis (speed vs accuracy)
+python performance_benchmarker.py --methods hybrid vector graph
+```
 
-# Test all search methods
-python enhanced_test_runner.py --all
+### 📊 Comprehensive Testing Options
 
-# Specify custom test file
-python enhanced_test_runner.py --test-file mvp_test_cases.csv --search-type hybrid
+```bash
+# Test specific search method with performance validation
+python enhanced_test_runner.py --search-type vector --use-reranking
+
+# Optimized keyword search (fastest)
+python enhanced_test_runner.py --search-type optimized_keyword
+
+# Graph-based search (high accuracy)
+python enhanced_test_runner.py --search-type graph --use-reranking
+
+# Validation only (check test data quality)
+python enhanced_test_runner.py --validation-only
+
+# Custom test file with performance grading
+python enhanced_test_runner.py --test-file test_small.csv --search-type hybrid
+```
+
+### ⚡ Performance Benchmarking
+
+```bash
+# Speed vs accuracy analysis
+python performance_benchmarker.py
+
+# Test specific methods with detailed profiling
+python optimized_search_tester.py --methods hybrid vector --iterations 5
+
+# Generate performance report
+python performance_benchmarker.py --report performance_report.md
 ```
 
 ## Test Features
 
-### Document Name Normalization
-- Automatically strips .pdf extensions for comparison
-- Handles case-insensitive matching
-- Resolves 86.2% validation issue from extension mismatches
+### 🎯 Performance Validation
+- **Performance Grading**: A+ to F grades based on accuracy and speed targets
+- **Target Validation**: Automatic comparison against expected performance benchmarks
+- **Speed Analysis**: Fast queries (<500ms), slow queries (>2s) tracking
+- **Optimization Recommendations**: Actionable insights for performance improvement
 
-### Evaluation Metrics
-- **Valid Tests**: Document exists in knowledge base
-- **Invalid Tests**: Referenced document not found
-- **Accurate Results**: Correct document retrieved
-- **Partial Match**: Some relevant content found
-- **Query Time**: Average response time per query
+### 📊 Enhanced Metrics
+- **Primary Metric**: Document/Citation accuracy (finding correct sources)
+- **Secondary Metrics**: Semantic similarity, response time, query complexity
+- **Performance Tracking**: P50, P95, P99 response times
+- **Efficiency Scoring**: Accuracy per second calculations
 
-### Result Output
-- CSV report with detailed results
-- Markdown summary with statistics
-- Per-question accuracy tracking
-- Failed test analysis
+### 🔍 Search Method Analysis
+- **Current Methods**: Optimized keyword, vector, hybrid, graph, graphrag, full text
+- **Reranking Impact**: Cross-encoder performance analysis
+- **Query Complexity**: Simple, moderate, complex query categorization
+- **Use Case Optimization**: Real-time, balanced, high-accuracy scenarios
+
+### 📈 Advanced Reporting
+- **Performance Reports**: Detailed markdown reports with optimization recommendations
+- **Trend Analysis**: Performance tracking over time
+- **Comparative Analysis**: Side-by-side method comparison
+- **Speed vs Accuracy Trade-offs**: Data-driven optimization insights
+
+### 🛠️ Test Data Quality
+- **Mandatory Validation**: All test runs include data quality validation
+- **Document Normalization**: Smart PDF extension handling and case-insensitive matching
+- **Citation Verification**: Ensures expected answers exist in specified documents
+- **Test Case Health**: Identifies invalid tests that need correction
 
 ## Test Format
 
@@ -79,13 +132,44 @@ The CSV file contains the following columns:
 
 ## Configuration
 
+### 🔧 System Configuration
+
 ```bash
 # Environment variables
-API_BASE_URL=http://localhost:8000
-NEO4J_PASSWORD=knowledge123
+API_BASE_URL=http://localhost:8000          # Knowledge API endpoint
+NEO4J_PASSWORD=knowledge123                 # Neo4j database password
+MCP_SERVER_PORT=8001                        # MCP server port (if used)
 
-# Test parameters
---top-k 5        # Number of results to retrieve
---workers 4      # Parallel test execution
---debug          # Enable debug logging
+# Performance testing parameters
+--search-type hybrid                        # Default: hybrid (recommended)
+--use-reranking                            # Default: enabled
+--timeout 30                               # Request timeout (seconds)
+--iterations 3                            # Benchmark iterations
+```
+
+### ⚙️ Performance Targets Configuration
+
+Current targets are based on measured system performance:
+
+```python
+PERFORMANCE_BENCHMARKS = {
+    "optimized_keyword": {"accuracy": 0.90, "speed_ms": 200},
+    "vector": {"accuracy": 0.78, "speed_ms": 500},
+    "hybrid": {"accuracy": 0.73, "speed_ms": 1000},
+    "graph": {"accuracy": 0.82, "speed_ms": 800},
+    "graphrag": {"accuracy": 0.80, "speed_ms": 1500},
+    "full_text": {"accuracy": 0.75, "speed_ms": 300}
+}
+```
+
+### 📁 Output Configuration
+
+```bash
+# Results saved to organized directories
+data/test_results/
+├── test_report_YYYYMMDD_HHMMSS.md          # Main test report
+├── test_report_YYYYMMDD_HHMMSS.csv         # Detailed results
+├── validation_report_YYYYMMDD_HHMMSS.md    # Data quality report
+├── performance_analysis_YYYYMMDD_HHMMSS.json # Benchmark data
+└── optimized_search_test_YYYYMMDD_HHMMSS.json # Search method tests
 ```

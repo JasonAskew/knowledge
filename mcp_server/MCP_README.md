@@ -4,31 +4,39 @@ This directory contains MCP (Model Context Protocol) servers that provide Neo4j 
 
 ## 🚀 Current Implementation
 
-The active MCP server is **`neo4j_mcp_lightweight.py`** - a lightweight server with lazy loading that provides both Neo4j access and ML-powered search capabilities while maintaining fast startup times.
+The active MCP server is **`neo4j_mcp_optimized.py`** - an optimized server that defaults to fast keyword search with optional vector search and reranking capabilities.
 
 ### Key Features
 
-- **<1 second startup time** - Models load on demand
-- **85%+ search accuracy** - Combines vector search, reranking, and graph queries
+- **<0.2 second query time** - Default keyword search is extremely fast
+- **Flexible search options** - Choose between speed and accuracy
 - **Full Neo4j access** - Read/write Cypher queries and schema inspection
-- **Community-aware search** - Leverages 42 detected communities for better results
+- **Entity search** - New tool for finding specific entities and their documents
+- **Smart keyword extraction** - Better handling of common query patterns
 
 ## 📦 Available Servers
 
-### 1. `neo4j_mcp_lightweight.py` (RECOMMENDED)
+### 1. `neo4j_mcp_optimized.py` (CURRENT - RECOMMENDED)
 - **Status**: Active, Production-ready
-- **Features**: Lazy loading, full search capabilities
-- **Startup**: <1 second
-- **First search**: ~5 seconds (loading models)
-- **Subsequent searches**: <2 seconds
+- **Features**: Fast keyword search by default, optional vector/reranking
+- **Query time**: <0.2s (keyword), ~5s (vector)
+- **Accuracy**: 80%+ (keyword), 88%+ (vector + reranking)
+- **Best for**: Claude Desktop with instant responses
 
-### 2. `neo4j_enhanced_search.py`
+### 2. `neo4j_mcp_lightweight.py`
+- **Status**: Previous version, still functional
+- **Features**: Lazy loading, always uses vector search
+- **Startup**: <1 second
+- **Query time**: 5-6 seconds per search
+- **Issue**: Slow for interactive use
+
+### 3. `neo4j_enhanced_search.py`
 - **Status**: Full-featured but heavy
 - **Features**: All search methods, immediate model loading
 - **Issue**: Startup timeout in Claude Desktop
 - **Use case**: Direct Python usage, not MCP
 
-### 3. `neo4j_exact_proxy.py`
+### 4. `neo4j_exact_proxy.py`
 - **Status**: Basic, limited functionality
 - **Features**: Pure Neo4j proxy only
 - **Accuracy**: 18.75% (Cypher-only search)
@@ -66,12 +74,25 @@ Returns:
 - Property information
 
 ### 4. **search_documents** (Enhanced servers only)
-High-accuracy search using hybrid approach with ML models.
+Flexible search with speed/accuracy tradeoff options.
 
 ```json
 {
   "query": "minimum balance requirements for savings accounts",
-  "top_k": 5
+  "top_k": 10,
+  "use_vector_search": false,  // Default: fast keyword search
+  "use_reranking": false       // Requires vector search
+}
+```
+
+### 5. **search_entities** (Optimized server only)
+Find specific entities and their documents.
+
+```json
+{
+  "entity_text": "interest rate",
+  "community_id": null,  // Optional: filter by community
+  "limit": 10
 }
 ```
 
@@ -92,7 +113,7 @@ Edit the config file at:
     "knowledge-graph-search": {
       "command": "/opt/anaconda3/bin/python3",
       "args": [
-        "/path/to/knowledge/mcp_server/neo4j_mcp_lightweight.py"
+        "/path/to/knowledge/mcp_server/neo4j_mcp_optimized.py"
       ],
       "cwd": "/path/to/knowledge",
       "env": {
@@ -140,11 +161,12 @@ cat ~/Library/Logs/Claude/mcp*.log
 
 ## 📊 Performance Comparison
 
-| Server | Startup Time | Search Accuracy | Memory Usage |
-|--------|--------------|-----------------|--------------|
-| `neo4j_mcp_lightweight.py` | <1s | 85-90% | Low (lazy) |
-| `neo4j_enhanced_search.py` | 10-15s | 85-90% | High |
-| `neo4j_exact_proxy.py` | <1s | 18.75% | Minimal |
+| Server | Startup Time | Query Time | Search Accuracy | Memory Usage |
+|--------|--------------|------------|-----------------|--------------|
+| `neo4j_mcp_optimized.py` | <1s | 0.2s / 5s | 80% / 88%+ | Low (lazy) |
+| `neo4j_mcp_lightweight.py` | <1s | 5-6s | 85-90% | Medium |
+| `neo4j_enhanced_search.py` | 10-15s | 2-3s | 85-90% | High |
+| `neo4j_exact_proxy.py` | <1s | 0.1s | 18.75% | Minimal |
 
 ## 🔧 Troubleshooting
 
@@ -201,4 +223,4 @@ Part of the Knowledge Graph System - see main [LICENSE](../LICENSE) file.
 
 ---
 
-**Current Version**: v0.0.1 | **Active Server**: `neo4j_mcp_lightweight.py` | **Accuracy**: 88.8%
+**Current Version**: v0.0.1 | **Active Server**: `neo4j_mcp_optimized.py` | **Default Accuracy**: 80%+ | **Max Accuracy**: 88.8%

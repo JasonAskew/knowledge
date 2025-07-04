@@ -910,12 +910,17 @@ These tests have expected answers that **CANNOT** be found in the specified docu
         error_tests = len(df[df['status'] == 'ERROR'])
         
         # Calculate various metrics
-        # PRIMARY METRIC: Citation/Document accuracy (what we measured before)
+        # PRIMARY METRIC: Citation/Document accuracy (current system performance)
         citation_matches = len(df[df['citation_match'] == True])
         citation_accuracy = citation_matches / total_tests if total_tests > 0 else 0
         
-        # SECONDARY METRIC: Answer semantic similarity (strict threshold)
+        # SECONDARY METRIC: Answer semantic similarity with updated thresholds
         semantic_pass_rate = passed_tests / total_tests if total_tests > 0 else 0
+        
+        # PERFORMANCE METRICS: Response time analysis
+        fast_queries = len(df[df['query_time'] <= 0.5])  # <500ms
+        slow_queries = len(df[df['query_time'] > 2.0])   # >2s
+        avg_response_time = df['query_time'].mean()
         
         summary = {
             "total_tests": total_tests,
@@ -924,8 +929,11 @@ These tests have expected answers that **CANNOT** be found in the specified docu
             "errors": error_tests,
             "pass_rate": semantic_pass_rate,
             "citation_matches": citation_matches,
-            "citation_accuracy": citation_accuracy,  # This is our main accuracy metric
-            "avg_query_time": df['query_time'].mean(),
+            "citation_accuracy": citation_accuracy,  # Primary accuracy metric
+            "avg_query_time": avg_response_time,
+            "fast_queries_count": fast_queries,
+            "slow_queries_count": slow_queries,
+            "performance_grade": self._calculate_performance_grade(citation_accuracy, avg_response_time),
             "avg_semantic_similarity": df[df['semantic_similarity'] > 0]['semantic_similarity'].mean(),
             "numbers_accuracy": len(df[df['numbers_match'] == True]) / len(df[df['numbers_match'].notna()]),
             "total_time": (self.end_time - self.start_time).total_seconds() if self.end_time else 0,
@@ -934,10 +942,60 @@ These tests have expected answers that **CANNOT** be found in the specified docu
                 "search_type": self.results[0]['search_type'] if self.results else '',
                 "reranking_used": self.results[0]['reranking_used'] if self.results else False,
                 "api_stats": getattr(self, 'api_stats', {})
+            },
+            "performance_targets": {
+                "accuracy_target": self._get_accuracy_target(self.results[0]['search_type'] if self.results else 'hybrid'),
+                "speed_target_ms": self._get_speed_target(self.results[0]['search_type'] if self.results else 'hybrid') * 1000,
+                "meets_targets": self._meets_performance_targets(citation_accuracy, avg_response_time, self.results[0]['search_type'] if self.results else 'hybrid')
             }
         }
         
         return summary
+    
+    def _calculate_performance_grade(self, accuracy: float, avg_time: float) -> str:
+        """Calculate overall performance grade based on accuracy and speed"""
+        if accuracy >= 0.85 and avg_time <= 0.5:
+            return "A+"  # Excellent: High accuracy, fast response
+        elif accuracy >= 0.80 and avg_time <= 1.0:
+            return "A"   # Very good: Good accuracy, reasonable speed
+        elif accuracy >= 0.75 and avg_time <= 1.5:
+            return "B+"  # Good: Acceptable accuracy and speed
+        elif accuracy >= 0.70 and avg_time <= 2.0:
+            return "B"   # Fair: Minimum acceptable performance
+        elif accuracy >= 0.65:
+            return "C"   # Poor accuracy but functional
+        else:
+            return "F"   # Failing: Below minimum standards
+    
+    def _get_accuracy_target(self, search_type: str) -> float:
+        """Get expected accuracy target for search type"""
+        targets = {
+            "optimized_keyword": 0.90,  # Fast, high precision
+            "vector": 0.78,            # Balanced semantic search
+            "hybrid": 0.73,            # Comprehensive search
+            "graph": 0.82,             # Entity-based search
+            "graphrag": 0.80,          # Graph reasoning
+            "full_text": 0.75          # Keyword matching
+        }
+        return targets.get(search_type, 0.75)
+    
+    def _get_speed_target(self, search_type: str) -> float:
+        """Get expected response time target for search type (in seconds)"""
+        targets = {
+            "optimized_keyword": 0.2,  # Very fast
+            "vector": 0.5,            # Fast
+            "hybrid": 1.0,            # Moderate
+            "graph": 0.8,             # Good
+            "graphrag": 1.5,          # Slower due to reasoning
+            "full_text": 0.3          # Fast text search
+        }
+        return targets.get(search_type, 1.0)
+    
+    def _meets_performance_targets(self, accuracy: float, avg_time: float, search_type: str) -> bool:
+        """Check if performance meets expected targets"""
+        accuracy_target = self._get_accuracy_target(search_type)
+        speed_target = self._get_speed_target(search_type)
+        return accuracy >= accuracy_target and avg_time <= speed_target
     
     def save_csv_report(self, filename: Optional[str] = None):
         """Save detailed CSV report"""
@@ -972,15 +1030,24 @@ These tests have expected answers that **CANNOT** be found in the specified docu
                 'citation_match': row['citation_match']
             })
         
-        # Build markdown report
+        # Build enhanced markdown report
         report = f"""# Knowledge Graph Test Report
 
 Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+
+## 📊 Performance Summary
+
+🎯 **Overall Grade**: {summary['performance_grade']}  
+📈 **Meets Performance Targets**: {'✅ YES' if summary['performance_targets']['meets_targets'] else '❌ NO'}  
+⚡ **Speed vs Accuracy**: {summary['citation_accuracy']*100:.1f}% accuracy in {summary['avg_query_time']:.2f}s avg  
+🚀 **Fast Queries**: {summary['fast_queries_count']}/{summary['total_tests']} under 500ms  
+🐌 **Slow Queries**: {summary['slow_queries_count']}/{summary['total_tests']} over 2 seconds  
 
 ## Test Configuration
 
 - **Search Type**: {summary['configuration']['search_type']}
 - **Reranking**: {'Enabled' if summary['configuration']['reranking_used'] else 'Disabled'}
+- **Performance Targets**: {summary['performance_targets']['accuracy_target']*100:.1f}% accuracy, {summary['performance_targets']['speed_target_ms']}ms response
 - **Total Documents**: {summary['configuration']['api_stats'].get('documents', 'N/A')}
 - **Total Chunks**: {summary['configuration']['api_stats'].get('chunks', 'N/A')}
 - **Total Entities**: {summary['configuration']['api_stats'].get('entities', 'N/A')}
@@ -1198,11 +1265,11 @@ def main():
                         help="API URL (default: http://localhost:8000)")
     parser.add_argument("--test-file", default=None,
                         help="Test CSV file (default: finds test.csv in current or parent directory)")
-    parser.add_argument("--search-type", default="vector",
-                        choices=["vector", "graph", "full_text", "hybrid", "graphrag", "text2cypher"],
-                        help="Search type to test (default: vector)")
-    parser.add_argument("--use-reranking", action="store_true",
-                        help="Enable reranking")
+    parser.add_argument("--search-type", default="hybrid",
+                        choices=["vector", "graph", "full_text", "hybrid", "graphrag", "optimized_keyword"],
+                        help="Search type to test (default: hybrid with reranking)")
+    parser.add_argument("--use-reranking", action="store_true", default=True,
+                        help="Enable cross-encoder reranking (default: enabled)")
     parser.add_argument("--timeout", type=int, default=30,
                         help="Request timeout in seconds (default: 30)")
     parser.add_argument("--no-validation", action="store_true",
@@ -1295,17 +1362,22 @@ def main():
     csv_file = runner.save_csv_report()
     md_file = runner.save_markdown_report(summary)
     
-    # Print summary
+    # Print enhanced summary
     logger.info("\n" + "="*60)
-    logger.info("Test Results Summary:")
-    logger.info(f"  Total tests: {summary['total_tests']}")
-    logger.info(f"  **DOCUMENT ACCURACY: {summary['citation_accuracy']*100:.1f}%** (Primary metric)")
-    logger.info(f"  Citation matches: {summary['citation_matches']}")
-    logger.info(f"  Answer correctness: {summary['pass_rate']*100:.1f}% (Semantic > 0.7)")
-    logger.info(f"  Passed: {summary['passed']}")
-    logger.info(f"  Failed: {summary['failed']}")
-    logger.info(f"  Errors: {summary['errors']}")
-    logger.info(f"  Average query time: {summary['avg_query_time']:.2f}s")
+    logger.info("📊 TEST RESULTS SUMMARY")
+    logger.info("="*60)
+    logger.info(f"  📈 Overall Performance Grade: {summary['performance_grade']}")
+    logger.info(f"  🎯 Meets Performance Targets: {'✅ YES' if summary['performance_targets']['meets_targets'] else '❌ NO'}")
+    logger.info(f"  📊 Total tests: {summary['total_tests']}")
+    logger.info(f"  🎯 **DOCUMENT ACCURACY: {summary['citation_accuracy']*100:.1f}%** (Target: {summary['performance_targets']['accuracy_target']*100:.1f}%)")
+    logger.info(f"  📄 Citation matches: {summary['citation_matches']}")
+    logger.info(f"  🔍 Answer correctness: {summary['pass_rate']*100:.1f}% (Semantic > 0.7)")
+    logger.info(f"  ✅ Passed: {summary['passed']}")
+    logger.info(f"  ❌ Failed: {summary['failed']}")
+    logger.info(f"  ⚠️  Errors: {summary['errors']}")
+    logger.info(f"  ⚡ Average response time: {summary['avg_query_time']:.2f}s (Target: {summary['performance_targets']['speed_target_ms']/1000:.1f}s)")
+    logger.info(f"  🚀 Fast queries (<500ms): {summary['fast_queries_count']}/{summary['total_tests']}")
+    logger.info(f"  🐌 Slow queries (>2s): {summary['slow_queries_count']}/{summary['total_tests']}")
     logger.info(f"\n📊 Reports Generated:")
     logger.info(f"  📄 Test Results (CSV): {csv_file}")
     logger.info(f"  📄 Test Report (Markdown): {md_file}")
