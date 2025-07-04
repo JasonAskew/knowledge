@@ -21,3 +21,7 @@ Pillow>=10.0.0
 
 # AWS integration (optional)
 boto3>=1.26.0
+
+# Graph analysis
+networkx>=3.0
+python-louvain>=0.16
