@@ -1,10 +1,10 @@
 # Neo4j MCP Proxy Server
 
-This directory contains the MCP (Model Context Protocol) server that provides Neo4j database access to Claude Desktop.
+⚠️ **Note**: This README is outdated. Please see [MCP_README.md](MCP_README.md) for current documentation.
 
 ## Current Implementation
 
-The active MCP server is `neo4j_exact_proxy.py`, which exposes exactly the same tools as the official `mcp-neo4j-cypher` server:
+The active MCP server is now `neo4j_mcp_lightweight.py`, which provides both Neo4j access and ML-powered search with 85%+ accuracy:
 
 ### Tools
 
